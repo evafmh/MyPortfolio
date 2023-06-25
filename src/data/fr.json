@@ -1,0 +1,17 @@
+{
+    "welcomeMessage": "Bienvenue sur mon portfolio !",
+    "navigation": {
+        "about": "À propos",
+        "works": "Projets",
+        "contact": "Contact"
+    },
+    "header": {
+        "title": "Développeur Web & Spécialiste en Marketing",
+        "list": [
+            "Design",
+            "Front-End",
+            "Back-End",
+            "Expérience utilisateur (UX)"
+        ]
+    }
+}
