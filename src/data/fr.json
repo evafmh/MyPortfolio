@@ -1,4 +1,8 @@
 {
+    "language": {
+        "flag": "france.svg",
+        "abbreviation": "FR"
+    },
     "welcomeMessage": "Bienvenue sur mon portfolio !",
     "navigation": {
         "about": "À propos",
@@ -6,7 +10,7 @@
         "contact": "Contact"
     },
     "header": {
-        "title": "Développeur Web & Spécialiste en Marketing",
+        "title": "Développeur Web",
         "list": [
             "Design",
             "Front-End",

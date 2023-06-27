@@ -1,4 +1,8 @@
 {
+    "language": {
+        "flag": "../assets/images/united-kingdom.svg",
+        "abbreviation": "EN"
+    },
     "welcomeMessage": "Welcome to my portfolio!",
     "navigation": {
         "about": "About",
@@ -6,12 +10,7 @@
         "contact": "Contact"
     },
     "header": {
-        "title": "Web developer & Marketing specialist",
-        "list": [
-          "Design",
-          "Front-End",
-          "Back-End",
-          "User experience (UX)"
-        ]
-      }
+        "title": "Web developer",
+        "list": ["Design", "Front-End", "Back-End", "User experience (UX)"]
+    }
 }
