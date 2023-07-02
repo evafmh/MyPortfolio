@@ -24,5 +24,18 @@
         "bio": "Je suis une développeur front-end passionnée avec de l'expérience en React...",
         "cv": "Télécharger le CV",
         "cvFileName": "CV.pdf"
+    },
+    "contact": {
+        "title": "Travaillons ensemble !",
+        "linksSubtitle": "N'hésitez pas à me contacter",
+        "githubLink": "https://github.com/evafmh",
+        "linkedinLink": "https://linkedin.com/in/eva-famechon",
+        "downloadSubtitle": "Téléchargez mon CV",
+        "resumeText": "CV",
+        "resumeLink": "CV.pdf",
+        "formTitle": "Envoyez moi un message",
+        "formTextboxes": ["Nom", "Email", "Message"],
+        "formSubmit": "Envoyer",
+        "legalDisclaimer": "En soumettant ce formulaire de contact, vous consentez à la collecte et à l'utilisation de vos données personnelles aux fins de recontact. Les informations collectées via ce formulaire seront utilisées uniquement dans le but de répondre à votre demande et de vous recontacter."
     }
 }

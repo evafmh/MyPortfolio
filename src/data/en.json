@@ -17,7 +17,20 @@
         "name": "Eva Famechon",
         "job": "Front-end Developer",
         "bio": "I'm a passionate front-end developer with experience in React...",
-        "cv": "Download CV",
+        "cv": "Download resume",
         "cvFileName": "resume.pdf"
+    },
+    "contact": {
+        "title": "Let’s work together!",
+        "linksSubtitle": "Please feel free to contact me",
+        "githubLink": "https://github.com/evafmh",
+        "linkedinLink": "https://linkedin.com/in/eva-famechon",
+        "downloadSubtitle": "Download my resume",
+        "resumeText": "Resume",
+        "resumeLink": "resume.pdf",
+        "formTitle": "Send me a message",
+        "formTextboxes": ["Name", "Email", "Message"],
+        "formSubmit": "Submit",
+        "legalDisclaimer": "By submitting this contact form, you consent to the collection and use of your personal data for the purpose of contacting you. The information collected via this form will be used solely to respond to your request and follow-up with you."
     }
 }

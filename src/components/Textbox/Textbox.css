@@ -1,0 +1,26 @@
+.text-field-container {
+    margin-bottom: 20px;
+}
+
+.text-field-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.text-field-container input,
+.text-field-container textarea {
+    width: 100%;
+    padding: 10px;
+    background: var(--light-purple, #d8baff);
+    color: var(--granite, #3a3a3a);
+    font-size: 17px;
+    font-family: Epilogue;
+    line-height: 27px;
+    border: none;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.text-field-container textarea {
+    min-height: 100px;
+}
