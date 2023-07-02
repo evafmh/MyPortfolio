@@ -17,5 +17,12 @@
             "Back-End",
             "Expérience utilisateur (UX)"
         ]
+    },
+    "about": {
+        "name": "Eva Famechon",
+        "job": "Développeur Front-end",
+        "bio": "Je suis une développeur front-end passionnée avec de l'expérience en React...",
+        "cv": "Télécharger le CV",
+        "cvFileName": "CV.pdf"
     }
 }

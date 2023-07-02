@@ -12,5 +12,12 @@
     "header": {
         "title": "Web developer",
         "list": ["Design", "Front-End", "Back-End", "User experience (UX)"]
+    },
+    "about": {
+        "name": "Eva Famechon",
+        "job": "Front-end Developer",
+        "bio": "I'm a passionate front-end developer with experience in React...",
+        "cv": "Download CV",
+        "cvFileName": "resume.pdf"
     }
 }

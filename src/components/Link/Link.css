@@ -1,0 +1,8 @@
+.link {
+    color: var(--purple, #C599FF);
+    font-size: 24px;
+    font-family: Epilogue;
+    font-weight: 600;
+    line-height: 34px;
+    text-transform: uppercase;
+  }

@@ -9,4 +9,5 @@
 .navigation-container {
     display: flex;
     gap: 2em;
+    scroll-behavior: smooth;
 }
