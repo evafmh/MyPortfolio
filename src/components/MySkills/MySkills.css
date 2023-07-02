@@ -1,0 +1,9 @@
+.my-skills-container {
+    margin: 40px 0;
+}
+
+.skill-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 5em;
+}

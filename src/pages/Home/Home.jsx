@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer'
 import Logo from '../../components/Logo/Logo'
 import Language from '../../components/Language/Language'
 import About from '../../components/About/About'
+import MySkills from '../../components/MySkills/MySkills'
 import Contact from '../../components/Contact/Contact'
 
 import franceFlag from '../../assets/images/france.svg'
@@ -49,9 +50,8 @@ const Home = () => {
             </div>
             <Header title={data.header.title} list={data.header.list} />
             <About data={data.about} id="about" />
-            <h1>{data.welcomeMessage}</h1>
-            <h2>blabla</h2>
-            <Contact data={data.contact} />
+            <MySkills skills={data.skills} />
+            <Contact data={data.contact} id="contact" />
             <Footer />
         </main>
     )

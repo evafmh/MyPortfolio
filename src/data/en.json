@@ -1,18 +1,20 @@
 {
     "language": {
-        "flag": "../assets/images/united-kingdom.svg",
+        "flag": "united-kingdom.svg",
         "abbreviation": "EN"
     },
-    "welcomeMessage": "Welcome to my portfolio!",
+
     "navigation": {
         "about": "About",
         "works": "Works",
         "contact": "Contact"
     },
+
     "header": {
         "title": "Web developer",
         "list": ["Design", "Front-End", "Back-End", "User experience (UX)"]
     },
+
     "about": {
         "name": "Eva Famechon",
         "job": "Front-end Developer",
@@ -20,6 +22,47 @@
         "cv": "Download resume",
         "cvFileName": "resume.pdf"
     },
+    "skills": [
+        {
+            "title": "Front-end Development",
+            "description": "I specialize in front-end development, creating interactive and user-friendly user interfaces.",
+            "image": "frontend.png",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Responsive Design",
+                "SEO"
+            ]
+        },
+        {
+            "title": "Back-end Web Development",
+            "description": "I have knowledge in back-end web development.",
+            "image": "backend.png",
+            "keywords": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "RESTful APIs",
+                "Authentication"
+            ]
+        },
+        {
+            "title": "Design & UX/UI",
+            "description": "I am passionate about user experience design, creating intuitive and easy-to-use interfaces.",
+            "image": "design.png",
+            "keywords": [
+                "Wireframing",
+                "Prototyping",
+                "Interaction Design",
+                "UI/UX Design",
+                "User Research",
+                "InDesign"
+            ]
+        }
+    ],
+
     "contact": {
         "title": "Let’s work together!",
         "linksSubtitle": "Please feel free to contact me",

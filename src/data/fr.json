@@ -3,12 +3,13 @@
         "flag": "france.svg",
         "abbreviation": "FR"
     },
-    "welcomeMessage": "Bienvenue sur mon portfolio !",
+
     "navigation": {
         "about": "À propos",
         "works": "Projets",
         "contact": "Contact"
     },
+
     "header": {
         "title": "Développeur Web",
         "list": [
@@ -18,6 +19,7 @@
             "Expérience utilisateur (UX)"
         ]
     },
+
     "about": {
         "name": "Eva Famechon",
         "job": "Développeur Front-end",
@@ -25,6 +27,48 @@
         "cv": "Télécharger le CV",
         "cvFileName": "CV.pdf"
     },
+
+    "skills": [
+        {
+            "title": "Développement Front-end",
+            "description": "Je suis spécialisé dans le développement front-end, en créant des interfaces utilisateur interactives et conviviales.",
+            "image": "frontend.png",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Responsive Design",
+                "SEO"
+            ]
+        },
+        {
+            "title": "Développement Web Back-end",
+            "description": "J'ai des connaissances en développement web back-end",
+            "image": "backend.png",
+            "keywords": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "RESTful APIs",
+                "Authentification"
+            ]
+        },
+        {
+            "title": "Design & UI/UX",
+            "description": "Je suis passionnée par la création et la conception d'expérience utilisateur, en créant des interfaces intuitives et faciles à utiliser.",
+            "image": "design.png",
+            "keywords": [
+                "Wireframing",
+                "Prototypage",
+                "Interaction Design",
+                "UI/UX Design",
+                "User Research",
+                "InDesign"
+            ]
+        }
+    ],
+
     "contact": {
         "title": "Travaillons ensemble !",
         "linksSubtitle": "N'hésitez pas à me contacter",
