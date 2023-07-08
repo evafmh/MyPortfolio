@@ -1,5 +1,4 @@
 import React from 'react'
-import './Header.css'
 
 const Header = ({ title, list }) => {
     return (
@@ -19,6 +18,7 @@ const Header = ({ title, list }) => {
             </div>
             <div className="svg-container">
                 <svg
+                    className="sw-js-blob"
                     id="sw-js-blob-svg1"
                     viewBox="0 0 100 100"
                     xmlns="http://www.w3.org/2000/svg"
@@ -54,6 +54,7 @@ const Header = ({ title, list }) => {
                 </svg>
 
                 <svg
+                    className="sw-js-blob"
                     id="sw-js-blob-svg2"
                     viewBox="0 0 100 100"
                     xmlns="http://www.w3.org/2000/svg"

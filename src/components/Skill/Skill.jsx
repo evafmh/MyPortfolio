@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import './Skill.css'
 
 const Skill = ({ image, title, description, keywords }) => {
     const [imagePath, setImagePath] = useState('')

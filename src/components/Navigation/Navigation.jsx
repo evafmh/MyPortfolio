@@ -1,5 +1,3 @@
-import './Navigation.css'
-
 function Navigation(props) {
     const { aboutText, worksText, contactText } = props
 

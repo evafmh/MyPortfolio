@@ -1,9 +1,8 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Link from '../Link/Link'
 import Textbox from '../Textbox/Textbox'
-import './Contact.css'
+import SocialLinks from '../SocialLinks/SocialLinks'
 
 const Contact = ({ data, id }) => {
     const {
@@ -20,26 +19,18 @@ const Contact = ({ data, id }) => {
         legalDisclaimer,
     } = data
 
+    const socialLinksData = [
+        { link: githubLink, icon: faGithub },
+        { link: linkedinLink, icon: faLinkedin },
+    ]
+
     return (
         <section className="contact-container" id={id}>
             <div className="contact-main">
                 <div className="contact-info">
                     <h1 className="contact-title">{title}</h1>
                     <h2 className="contact-subtitle">{linksSubtitle}</h2>
-                    <div className="contact-links">
-                        <a href={githubLink}>
-                            <FontAwesomeIcon
-                                icon={faGithub}
-                                className="social-icon"
-                            />
-                        </a>
-                        <a href={linkedinLink}>
-                            <FontAwesomeIcon
-                                icon={faLinkedin}
-                                className="social-icon"
-                            />
-                        </a>
-                    </div>
+                    <SocialLinks Links={socialLinksData} />
                     <h2 className="contact-subtitle">{downloadSubtitle}</h2>
                     <Link
                         href={resumeLink}
@@ -52,8 +43,12 @@ const Contact = ({ data, id }) => {
                 <div className="contact-form">
                     <h2 className="contact-form-title">{formTitle}</h2>
                     <div className="text-fields-container">
-                        {formTextboxes.map((label, index) => (
-                            <Textbox key={index} label={label} type="text" />
+                        {formTextboxes.map((textbox, index) => (
+                            <Textbox
+                                key={index}
+                                label={textbox.label}
+                                type={textbox.type}
+                            />
                         ))}
                     </div>
                     <button type="submit" className="contact-submit-button">

@@ -13,10 +13,6 @@ import Contact from '../../components/Contact/Contact'
 import franceFlag from '../../assets/images/france.svg'
 import ukFlag from '../../assets/images/united-kingdom.svg'
 
-import './Home.css'
-import '../../styles/utils/colors.css'
-import '../../styles/utils/styles.css'
-
 const Home = () => {
     const [language, setLanguage] = useState('fr')
     const data = language === 'fr' ? frData : enData
@@ -37,22 +33,25 @@ const Home = () => {
         <main>
             <div id="navigation-container">
                 <Logo initials="EF" firstName="Eva" lastName="Famechon" />
-                <Language
-                    flag={currentFlag}
-                    abbreviation={data.language.abbreviation}
-                    onClick={toggleLanguage}
-                />
                 <Navigation
                     aboutText={data.navigation.about}
                     worksText={data.navigation.works}
                     contactText={data.navigation.contact}
+                />
+                <Language
+                    flag={currentFlag}
+                    abbreviation={data.language.abbreviation}
+                    onClick={toggleLanguage}
                 />
             </div>
             <Header title={data.header.title} list={data.header.list} />
             <About data={data.about} id="about" />
             <MySkills skills={data.skills} />
             <Contact data={data.contact} id="contact" />
-            <Footer />
+            <Footer
+                githubLink={data.contact.githubLink}
+                linkedinLink={data.contact.linkedinLink}
+            />
         </main>
     )
 }

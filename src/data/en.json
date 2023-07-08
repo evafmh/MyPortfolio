@@ -72,7 +72,11 @@
         "resumeText": "Resume",
         "resumeLink": "resume.pdf",
         "formTitle": "Send me a message",
-        "formTextboxes": ["Name", "Email", "Message"],
+        "formTextboxes": [
+            { "label": "Name", "type": "input" },
+            { "label": "Email", "type": "input" },
+            { "label": "Message", "type": "textarea" }
+        ],
         "formSubmit": "Submit",
         "legalDisclaimer": "By submitting this contact form, you consent to the collection and use of your personal data for the purpose of contacting you. The information collected via this form will be used solely to respond to your request and follow-up with you."
     }

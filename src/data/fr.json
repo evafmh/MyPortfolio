@@ -78,7 +78,11 @@
         "resumeText": "CV",
         "resumeLink": "CV.pdf",
         "formTitle": "Envoyez moi un message",
-        "formTextboxes": ["Nom", "Email", "Message"],
+        "formTextboxes": [
+            { "label": "Nom", "type": "input" },
+            { "label": "Email", "type": "input" },
+            { "label": "Message", "type": "textarea" }
+        ],
         "formSubmit": "Envoyer",
         "legalDisclaimer": "En soumettant ce formulaire de contact, vous consentez à la collecte et à l'utilisation de vos données personnelles aux fins de recontact. Les informations collectées via ce formulaire seront utilisées uniquement dans le but de répondre à votre demande et de vous recontacter."
     }

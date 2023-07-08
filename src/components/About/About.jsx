@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from '../Link/Link'
-import './About.css'
 
 const About = ({ data, id }) => {
     const { name, job, bio, cv, cvFileName } = data
@@ -40,8 +39,8 @@ const About = ({ data, id }) => {
                 </svg>
             </div>
             <div className="about-right">
-                <h1 className="about-name">{name}</h1>
-                <p className="about-job">{job}</p>
+                <h2 className="about-name">{name}</h2>
+                <h3 className="about-job">{job}</h3>
                 <p className="about-bio">{bio}</p>
 
                 <Link

@@ -1,10 +1,9 @@
 import React from 'react'
 import Skill from '../Skill/Skill'
-import './MySkills.css'
 
 const MySkills = ({ skills }) => {
     return (
-        <section className='my-skills-container'>
+        <section className="my-skills-container">
             <div className="skill-list">
                 {skills.map((skill, index) => (
                     <Skill

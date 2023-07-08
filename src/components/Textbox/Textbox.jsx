@@ -1,12 +1,11 @@
 import React from 'react'
-import './Textbox.css'
 
 const Textbox = ({ label, type, rows }) => {
     const inputProps = {
         name: label.toLowerCase(),
         id: label.toLowerCase(),
         type: type,
-        rows: rows || 1,
+        rows: rows || (type === 'textarea' ? 4 : 1),
         required: true,
     }
 
