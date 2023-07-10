@@ -69,6 +69,107 @@
         }
     ],
 
+    "projects": [
+        {
+            "title": "Kasa",
+            "subtitle": "Frontend en React d'une plateforme de location",
+            "category": "Développement Web",
+            "shortDescription": "Une application web frontend en React pour une plateforme de location d'hébergements",
+            "image": "path/to/kasa-frontend.jpg"
+        },
+        {
+            "title": "Mon Vieux Grimoire",
+            "subtitle": "Backend d'un site de notation de livres",
+            "category": "Développement Web",
+            "shortDescription": "Une API backend pour gérer les livres, les utilisateurs et les avis",
+            "image": "path/to/monvieuxgrimoire-backend.jpg"
+        },
+        {
+            "title": "Mon Vieux Grimoire",
+            "subtitle": "Backend d'un site de notation de livres",
+            "category": "Développement Web",
+            "shortDescription": "Développement du backend d'un site de notation de livres pour une chaîne de librairies",
+            "detailedDescription": "Mon Vieux Grimoire est une application web qui permet aux membres d'ajouter et de noter des livres. J'ai été chargé de la création et du développement du backend de ce site. Mon rôle consistait à mettre en place l'API RESTful qui gère les opérations liées aux livres, l'authentification des utilisateurs et la gestion des avis. J'ai utilisé Node.js et Express.js pour le développement côté serveur, ainsi que MongoDB comme base de données en utilisant Mongoose comme ODM. J'ai également mis en œuvre l'authentification des utilisateurs à l'aide de JSON Web Tokens (JWT) pour assurer la sécurité des données. Le backend offre des fonctionnalités robustes telles que la création, la lecture, la mise à jour et la suppression (CRUD) des livres, la gestion des utilisateurs et la validation des avis. J'ai travaillé en collaboration avec un développeur frontend pour intégrer harmonieusement le frontend avec le backend. Le projet a suivi les meilleures pratiques en matière de sécurité des données, de validation d'emails uniques et de mise en place de middlewares pour la gestion des requêtes.",
+            "technologiesUsed": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose",
+                "JWT",
+                "Bcrypt"
+            ],
+            "keywords": [
+                "CRUD",
+                "middleware",
+                "sécurité des données",
+                "authentification",
+                "autorisation",
+                "intégration d'API"
+            ],
+            "competencies": [
+                "Mise en place d'un modèle logique de données",
+                "Stockage sécurisé des données",
+                "Implémentation sécurisée des opérations CRUD"
+            ]
+        },
+        {
+            "title": "Kasa - Application web de location immobilière",
+            "subtitle": "Front-end avec React d'une plateforme de location",
+            "category": "Développement web",
+            "shortDescription": "Développement de la plateforme web de location immobilière pour l'entreprise Kasa",
+            "detailedDescription": "Kasa est une entreprise spécialisée dans la location d'appartements entre particuliers en France. Dans ce projet, j'ai été chargé de développer le front-end application web de location immobilière pour Kasa en utilisant la technologie React. Mon rôle a consisté à créer et développer les composants React, mettre en place les routes avec React Router, et suivre les maquettes fournies. J'ai ajouté une animation CSS sur l'ouverture/fermeture du composant Collapse pour améliorer l'expérience utilisateur. Le projet a suivi les guidelines de codage de Kasa pour assurer la qualité du code.",
+            "technologiesUsed": [
+                "React",
+                "React Router",
+                "Sass",
+                "CSS",
+                "HTML",
+                "JavaScript",
+                "Figma"
+            ],
+            "keywords": [
+                "React",
+                "CSS",
+                "HTML",
+                "JavaScript",
+                "Maquette",
+                "Intégration front-end"
+            ],
+            "competencies": [
+                "Configuration de la navigation entre les pages de l'application avec React Router",
+                "Utilisation de React pour créer des composants interactifs",
+                "Mise en œuvre d'animations CSS pour améliorer l'expérience utilisateur"
+            ]
+        },
+        {
+            "title": "Débogage et optimisation d'un site de photographe",
+            "subtitle": "Optimisation SEO et résolution des problèmes techniques",
+            "category": "Développement web",
+            "shortDescription": "Optimisation et débogage d'un site web pour une photographe professionnelle",
+            "detailedDescription": "Dans ce projet, j'ai optimisé le site web d'une photographe professionnelle, Nina Carducci, en améliorant ses performances et son référencement. J'ai analysé le site, réduit le temps de chargement et corrigé les erreurs d'accessibilité. J'ai optimisé les images sans compromettre leur qualité, amélioré le code et ajouté des balises méta et Schema.org pour le référencement local. J'ai résolu des problèmes spécifiques tels que la navigation défectueuse dans la galerie et l'affichage incorrect des filtres. J'ai utilisé les Chrome DevTools pour déboguer le site et préparé un rapport d'intervention détaillé avec les performances avant et après l'optimisation.",
+            "technologiesUsed": [
+                "Chrome DevTools",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "keywords": [
+                "Optimisation des performances",
+                "Débogage",
+                "SEO",
+                "Référencement local",
+                "Balises méta",
+                "Accessibilité",
+                "Chrome DevTools"
+            ],
+            "competencies": [
+                "Optimisation des performances d'un site web",
+                "Débogage d'un site web avec les Chrome DevTools",
+                "Rédaction d'un rapport d'intervention pour tester un site"
+            ]
+        }
+    ],
+
     "contact": {
         "title": "Travaillons ensemble !",
         "linksSubtitle": "N'hésitez pas à me contacter",

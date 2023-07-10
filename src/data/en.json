@@ -63,6 +63,108 @@
         }
     ],
 
+    "projects": [
+        {
+            "title": "Kasa",
+            "subtitle": "React FrontEnd for Booking Platform",
+            "category": "Web Development",
+            "shortDescription": "A React frontend web application for a accomodation booking platform",
+            "image": "path/to/kasa-frontend.jpg",
+            "alt": "Screenshot of Kasa (Frontend) application"
+        },
+        {
+            "title": "Mon Vieux Grimoire",
+            "subtitle": "Backend for Book Rating Website",
+            "category": "Web Development",
+            "shortDescription": "A backend API for managing books, users, and reviews",
+            "image": "path/to/monvieuxgrimoire-backend.jpg",
+            "alt": "Screenshot of Mon Vieux Grimoire (Backend) application"
+        },
+        {
+            "title": "Mon Vieux Grimoire",
+            "subtitle": "Backend for Book Rating Website",
+            "category": "Web Development",
+            "shortDescription": "Development of the backend for a book rating website for a local bookstore chain",
+            "detailedDescription": "Mon Vieux Grimoire is a web application that allows members to add and rate books. I was responsible for creating and developing the backend of this website. My role involved setting up the RESTful API that handles book-related operations, user authentication, and review management. I used Node.js and Express.js for server-side development, along with MongoDB as the database using Mongoose as the ODM. I also implemented user authentication using JSON Web Tokens (JWT) to ensure data security. The backend provides robust features such as Create, Read, Update, and Delete (CRUD) operations for books, user management, and review validation. I worked collaboratively with a frontend developer to seamlessly integrate the frontend with the backend. The project followed best practices in data security, unique email validation, and the implementation of middlewares for request handling.",
+            "technologiesUsed": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose",
+                "JWT",
+                "Bcrypt"
+            ],
+            "keywords": [
+                "CRUD",
+                "middleware",
+                "data security",
+                "authentication",
+                "authorization",
+                "API integration"
+            ],
+            "competencies": [
+                "Implementation of a logical data model in compliance with regulations",
+                "Secure storage of data",
+                "Secure implementation of CRUD operations"
+            ]
+        },
+        {
+            "title": "Kasa - Booking Web Application",
+            "subtitle": "Front-end development with React for a booking platform",
+            "category": "Web Development",
+            "shortDescription": "Development of the web platform for accomodation booking for the company Kasa",
+            "detailedDescription": "Kasa is a company specialized in apartment rentals between individuals in France. In this project, I was tasked with developing the front-end web application for accomodation booking for Kasa using React technology. My role involved creating and developing React components, setting up routes with React Router, and following the provided mockups. I added a CSS animation to the opening/closing of the Collapse component to enhance the user experience. The project followed Kasa's coding guidelines to ensure code quality.",
+            "technologiesUsed": [
+                "React",
+                "React Router",
+                "CSS",
+                "HTML",
+                "JavaScript",
+                "Figma"
+            ],
+            "keywords": [
+                "React",
+                "CSS",
+                "HTML",
+                "JavaScript",
+                "Mockup",
+                "Front-end Integration"
+            ],
+            "competencies": [
+                "Configuring navigation between application pages with React Router",
+                "Using React to create interactive components",
+                "Implementing CSS animations to enhance the user experience"
+            ]
+        },
+        {
+            "title": "Debugging and Optimization of a Photographer's Website",
+            "subtitle": "SEO Optimization and Technical Issue Resolution",
+            "category": "Web Development",
+            "shortDescription": "Optimization and debugging of a professional photographer's website",
+            "detailedDescription": "In this project, I optimized the website of a professional photographer, Nina Carducci, by improving its performance and search engine optimization. I analyzed the site, reduced loading time, and fixed accessibility errors. I optimized the images without compromising their quality, improved the code, and added meta tags and Schema.org for local search engine optimization. I resolved specific issues such as faulty navigation in the gallery and incorrect filter display. I used Chrome DevTools to debug the site and prepared a detailed intervention report with performance metrics before and after optimization.",
+            "technologiesUsed": [
+                "Chrome DevTools",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "keywords": [
+                "Performance Optimization",
+                "Debugging",
+                "SEO",
+                "Local SEO",
+                "Meta Tags",
+                "Accessibility",
+                "Chrome DevTools"
+            ],
+            "competencies": [
+                "Optimizing website performance",
+                "Debugging a website using Chrome DevTools",
+                "Writing an intervention report to test a website"
+            ]
+        }
+    ],
+
     "contact": {
         "title": "Let’s work together!",
         "linksSubtitle": "Please feel free to contact me",

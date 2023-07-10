@@ -8,6 +8,7 @@ import Logo from '../../components/Logo/Logo'
 import Language from '../../components/Language/Language'
 import About from '../../components/About/About'
 import MySkills from '../../components/MySkills/MySkills'
+import Gallery from '../../components/Gallery/Gallery'
 import Contact from '../../components/Contact/Contact'
 
 import franceFlag from '../../assets/images/france.svg'
@@ -33,20 +34,23 @@ const Home = () => {
         <main>
             <div id="navigation-container">
                 <Logo initials="EF" firstName="Eva" lastName="Famechon" />
-                <Navigation
-                    aboutText={data.navigation.about}
-                    worksText={data.navigation.works}
-                    contactText={data.navigation.contact}
-                />
-                <Language
-                    flag={currentFlag}
-                    abbreviation={data.language.abbreviation}
-                    onClick={toggleLanguage}
-                />
+                <div className="navigation-container-right">
+                    <Navigation
+                        aboutText={data.navigation.about}
+                        worksText={data.navigation.works}
+                        contactText={data.navigation.contact}
+                    />
+                    <Language
+                        flag={currentFlag}
+                        abbreviation={data.language.abbreviation}
+                        onClick={toggleLanguage}
+                    />
+                </div>
             </div>
             <Header title={data.header.title} list={data.header.list} />
             <About data={data.about} id="about" />
             <MySkills skills={data.skills} />
+            <Gallery projects={data.projects} />
             <Contact data={data.contact} id="contact" />
             <Footer
                 githubLink={data.contact.githubLink}
