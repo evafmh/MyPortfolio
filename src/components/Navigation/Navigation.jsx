@@ -2,7 +2,7 @@ function Navigation(props) {
     const { aboutText, worksText, contactText } = props
 
     return (
-        <nav className="navigation-container">
+        <nav className="navigation-links-container">
             <a className="navigation-link" href="#about">
                 {aboutText}
             </a>
