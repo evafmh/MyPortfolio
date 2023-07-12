@@ -71,22 +71,6 @@
 
     "projects": [
         {
-            "title": "Kasa",
-            "subtitle": "React FrontEnd for Booking Platform",
-            "category": "Web Development",
-            "shortDescription": "A React frontend web application for a accomodation booking platform",
-            "image": "kasa.png",
-            "alt": "Screenshot of Kasa (Frontend) application"
-        },
-        {
-            "title": "Mon Vieux Grimoire",
-            "subtitle": "Backend for Book Rating Website",
-            "category": "Web Development",
-            "shortDescription": "A backend API for managing books, users, and reviews",
-            "image": "grimoire.jpg",
-            "alt": "Screenshot of Mon Vieux Grimoire (Backend) application"
-        },
-        {
             "title": "Mon Vieux Grimoire",
             "subtitle": "Backend for Book Rating Website",
             "category": "Web Development",
@@ -260,6 +244,49 @@
                 "Artistic Expression",
                 "Observational Skills",
                 "Creativity"
+            ]
+        },
+        {
+            "title": "Sophie Bluel's Portfolio Website",
+            "subtitle": "Create a dynamic portfolio website using JavaScript",
+            "category": "Web Development",
+            "image": "architecte.png",
+            "shortDescription": "Created a dynamic portfolio website using JavaScript for an architect portfolio",
+            "detailedDescription": "As a front-end developer, I developed architect Sophie Bluel's portfolio website. The project involved creating different sections of the website, including the presentation page, the admin login page, and a modal for uploading media. I manipulated the DOM with JavaScript to create dynamic and interactive elements, retrieved user data from forms, and handled user events. I followed the provided design from Figma and integrated back-end code to store and manage data. This project showcased my skills in JavaScript, DOM manipulation, and event handling.",
+            "technologiesUsed": ["JavaScript", "HTML", "CSS", "Figma"],
+            "keywords": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Front-end Development",
+                "DOM Manipulation",
+                "Event Handling"
+            ],
+            "competencies": [
+                "Manipulated DOM elements with JavaScript",
+                "Retrieved user data in JavaScript via forms",
+                "Handled user events with JavaScript"
+            ]
+        },
+        {
+            "title": "Transform a design into a website with HTML & CSS",
+            "subtitle": "Create a website by integrating a design using HTML and CSS",
+            "category": "Web Development",
+            "image": "booki-activity1.jpeg",
+            "shortDescription": "Development of the Booki website interface that allows users to find accommodations and activities in the city of their choice.",
+            "detailedDescription": "I integrated the website interface using HTML and CSS. I received the design mockups and images and I created the HTML structure and applied the necessary CSS styles to match the design. I ensured the website was responsive and followed the provided breakpoints for different devices. Throughout the project, I adhered to coding best practices, used semantic HTML tags, and validated the code with W3C HTML and CSS validators. The website is compatible with the latest versions of Google Chrome and Mozilla Firefox. This project showcased my skills in HTML, CSS, responsive design, and attention to detail.",
+            "technologiesUsed": ["HTML", "CSS", "Figma"],
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Web Design Integration",
+                "Responsive Design",
+                "Semantic HTML",
+                "W3C Validation"
+            ],
+            "competencies": [
+                "Integrating content according to a design",
+                "Implementing a responsive interface"
             ]
         }
     ],

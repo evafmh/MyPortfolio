@@ -77,20 +77,6 @@
 
     "projects": [
         {
-            "title": "Kasa",
-            "subtitle": "Frontend en React d'une plateforme de location",
-            "category": "Développement Web",
-            "shortDescription": "Une application web frontend en React pour une plateforme de location d'hébergements",
-            "image": "kasa.png"
-        },
-        {
-            "title": "Mon Vieux Grimoire",
-            "subtitle": "Backend d'un site de notation de livres",
-            "category": "Développement Web",
-            "shortDescription": "Une API backend pour gérer les livres, les utilisateurs et les avis",
-            "image": "grimoire.jpg"
-        },
-        {
             "title": "Mon Vieux Grimoire",
             "subtitle": "Backend d'un site de notation de livres",
             "category": "Développement Web",
@@ -250,8 +236,8 @@
             "category": "Travaux Personnels",
             "image": "painting.png",
             "shortDescription": "Sélection de peintures et de dessins capturant ma perception du monde",
-            "detailedDescription": "Pendant le premier confinement dû à la COVID-19 en 2020, j'ai redécouvert les joies de la peinture et du dessin, et je n'ai pas arrêté depuis. À travers mon art, j'aime explorer la beauté du monde qui nous entoure et exprimer ma propre vision unique.\n\nSur cette page, vous trouverez une sélection de mes œuvres, comprenant un dessin aux pastels à l'huile, une peinture sur céramique et plusieurs tableaux capturant la beauté de la nature. J'ai également inclus des croquis détaillés au crayon de bâtiments emblématiques parisiens tels que l'église Saint-Sulpice et la salle de concert Cortot. Et pour une touche de fantaisie, ne manquez pas mon adorable dessin numérique de citrouilles bavardes. Parcourez et appréciez !",
-            "technologiesUsed": [],
+            "detailedDescription": "Pendant le premier confinement dû au COVID-19 en 2020, j'ai redécouvert les joies de la peinture et du dessin, et je n'ai pas arrêté depuis. À travers mon art, j'aime explorer la beauté du monde qui nous entoure et exprimer ma propre vision unique.\n\nSur cette page, vous trouverez une sélection de mes œuvres, comprenant un dessin aux pastels à l'huile, une peinture sur céramique et plusieurs tableaux capturant la beauté de la nature. J'ai également inclus des croquis détaillés au crayon de bâtiments emblématiques parisiens tels que l'église Saint-Sulpice et la salle de concert Cortot. Et pour une touche de fantaisie, ne manquez pas mon adorable dessin numérique de citrouilles commères. Parcourez et appréciez !",
+            "technologiesUsed": ["PhotoShop", "Procreate"],
             "keywords": [
                 "Peinture",
                 "Dessin",
@@ -265,6 +251,49 @@
                 "Expression Artistique",
                 "Observation",
                 "Créativité"
+            ]
+        },
+        {
+            "title": "Site Portfolio de Sophie Bluel",
+            "subtitle": "Créeation d'un site portfolio dynamique avec JavaScript",
+            "category": "Développement Web",
+            "image": "architecte.png",
+            "shortDescription": "Création d'un site portfolio dynamique en utilisant JavaScript pour un portfolio d'une architecte",
+            "detailedDescription": "En tant que développeur front-end, j'ai réalisé le site portfolio de Sophie Bluel - architecte. Le projet a impliqué la création de différentes sections du site, notamment la page de présentation, la page de connexion administrateur et une modale pour télécharger des médias. J'ai manipulé le DOM avec JavaScript pour créer des éléments dynamiques et interactifs, récupéré les données utilisateur à partir de formulaires et géré les événements utilisateurs. J'ai suivi le design fourni dans Figma et intégré du code back-end pour stocker et gérer les données. Ce projet met en avant mes compétences en JavaScript, manipulation du DOM et gestion des événements.",
+            "technologiesUsed": ["JavaScript", "HTML", "CSS", "Figma"],
+            "keywords": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Développement Front-end",
+                "Manipulation du DOM",
+                "Gestion des événements"
+            ],
+            "competencies": [
+                "Manipulation des éléments du DOM avec JavaScript",
+                "Récupération des données utilisateurs en JavaScript via des formulaires",
+                "Gestion des événements utilisateurs avec JavaScript"
+            ]
+        },
+        {
+            "title": "Transformer une maquette en site web avec HTML et CSS",
+            "subtitle": "Création d'un site web en intégrant une maquette en utilisant HTML et CSS",
+            "category": "Développement Web",
+            "image": "booki-activity1.jpeg",
+            "shortDescription": "Développement de l'interface du site Booki qui permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+            "detailedDescription": "J'ai intégré l'interface du site web en utilisant HTML et CSS. J'ai reçu les maquettes et les images, puis j'ai créé la structure HTML et appliqué les styles CSS nécessaires afin de correspondre au design. J'ai veillé à ce que le site web soit responsive et respecte les points de rupture fournis pour les différents appareils. Tout au long du projet, j'ai suivi les bonnes pratiques de codage, utilisé des balises HTML sémantiques et validé le code avec les validateurs HTML et CSS du W3C. Le site web est compatible avec les dernières versions de Google Chrome et Mozilla Firefox. Ce projet met en valeur mes compétences en HTML, CSS, design responsive et mon souci du détail.",
+            "technologiesUsed": ["HTML", "CSS", "Figma"],
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Intégration de Design Web",
+                "Design Responsive",
+                "HTML Sémantique",
+                "Validation W3C"
+            ],
+            "competencies": [
+                "Intégrer du contenu conformément à une maquette",
+                "Implémenter une interface responsive"
             ]
         }
     ],
