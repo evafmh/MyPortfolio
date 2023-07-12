@@ -1,0 +1,49 @@
+@import '../base/variables'
+@import '../base/typography'
+
+
+.my-projects-section
+    text-align: center
+    background: $light-green-color
+    display: flex
+    flex-direction: column
+    padding: 20px 0
+
+    .projects-header-title
+        margin: 20px
+        font-size: 32px
+
+    .filter-buttons-container
+        margin: 20px
+
+        .filter-button
+            border-radius: 2px
+            border: 1px solid $light-purple-color
+            background: $background-purple-color
+            margin: 0.4em
+            color: $granite-color
+            font-size: 20px
+            font-style: normal
+            font-weight: 600
+            text-transform: uppercase
+
+            &.MuiButton-contained
+                border: 1px solid $green-color
+                background: $lime-color 
+
+    .projects-gallery
+        width: 100%
+        padding: 1.5em
+        margin: 0
+
+        .project-card
+            display: flex
+            flex-direction: column
+            align-items: center
+            padding: 1em
+
+            .project-image
+                height: 30em
+                width: 30em
+
+              

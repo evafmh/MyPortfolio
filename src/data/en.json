@@ -17,8 +17,8 @@
 
     "about": {
         "name": "Eva Famechon",
-        "job": "Front-end Developer",
-        "bio": "I'm a passionate front-end developer with experience in React...",
+        "job": "Web Developer",
+        "bio": "I'm a passionate web developer with experience in React...",
         "cv": "Download resume",
         "cvFileName": "resume.pdf"
     },
@@ -63,13 +63,19 @@
         }
     ],
 
+    "projectsHeader": {
+        "title": "My Projects",
+        "allCategories": "All",
+        "categories": ["Web Development", "Design", "Personal Work"]
+    },
+
     "projects": [
         {
             "title": "Kasa",
             "subtitle": "React FrontEnd for Booking Platform",
             "category": "Web Development",
             "shortDescription": "A React frontend web application for a accomodation booking platform",
-            "image": "path/to/kasa-frontend.jpg",
+            "image": "kasa.png",
             "alt": "Screenshot of Kasa (Frontend) application"
         },
         {
@@ -77,13 +83,14 @@
             "subtitle": "Backend for Book Rating Website",
             "category": "Web Development",
             "shortDescription": "A backend API for managing books, users, and reviews",
-            "image": "path/to/monvieuxgrimoire-backend.jpg",
+            "image": "grimoire.jpg",
             "alt": "Screenshot of Mon Vieux Grimoire (Backend) application"
         },
         {
             "title": "Mon Vieux Grimoire",
             "subtitle": "Backend for Book Rating Website",
             "category": "Web Development",
+            "image": "grimoire.jpg",
             "shortDescription": "Development of the backend for a book rating website for a local bookstore chain",
             "detailedDescription": "Mon Vieux Grimoire is a web application that allows members to add and rate books. I was responsible for creating and developing the backend of this website. My role involved setting up the RESTful API that handles book-related operations, user authentication, and review management. I used Node.js and Express.js for server-side development, along with MongoDB as the database using Mongoose as the ODM. I also implemented user authentication using JSON Web Tokens (JWT) to ensure data security. The backend provides robust features such as Create, Read, Update, and Delete (CRUD) operations for books, user management, and review validation. I worked collaboratively with a frontend developer to seamlessly integrate the frontend with the backend. The project followed best practices in data security, unique email validation, and the implementation of middlewares for request handling.",
             "technologiesUsed": [
@@ -112,6 +119,7 @@
             "title": "Kasa - Booking Web Application",
             "subtitle": "Front-end development with React for a booking platform",
             "category": "Web Development",
+            "image": "kasa.png",
             "shortDescription": "Development of the web platform for accomodation booking for the company Kasa",
             "detailedDescription": "Kasa is a company specialized in apartment rentals between individuals in France. In this project, I was tasked with developing the front-end web application for accomodation booking for Kasa using React technology. My role involved creating and developing React components, setting up routes with React Router, and following the provided mockups. I added a CSS animation to the opening/closing of the Collapse component to enhance the user experience. The project followed Kasa's coding guidelines to ensure code quality.",
             "technologiesUsed": [
@@ -140,6 +148,7 @@
             "title": "Debugging and Optimization of a Photographer's Website",
             "subtitle": "SEO Optimization and Technical Issue Resolution",
             "category": "Web Development",
+            "image": "nina.jpg",
             "shortDescription": "Optimization and debugging of a professional photographer's website",
             "detailedDescription": "In this project, I optimized the website of a professional photographer, Nina Carducci, by improving its performance and search engine optimization. I analyzed the site, reduced loading time, and fixed accessibility errors. I optimized the images without compromising their quality, improved the code, and added meta tags and Schema.org for local search engine optimization. I resolved specific issues such as faulty navigation in the gallery and incorrect filter display. I used Chrome DevTools to debug the site and prepared a detailed intervention report with performance metrics before and after optimization.",
             "technologiesUsed": [
@@ -161,6 +170,96 @@
                 "Optimizing website performance",
                 "Debugging a website using Chrome DevTools",
                 "Writing an intervention report to test a website"
+            ]
+        },
+        {
+            "title": "Planning of Menu Maker by Qwenta Project",
+            "subtitle": "Project management, technical specifications, and technological watch",
+            "category": "Web Development",
+            "image": "menumaker.png",
+            "shortDescription": "Planning the development of a menu website for Qwenta",
+            "detailedDescription": "In this project, I planned the development of the Menu Maker application by Qwenta in collaboration with Soufiane, the Product Owner. I conducted technological watch to generate ideas and define the technical specifications of the website. I prepared a clear and convincing presentation of the technical solution, highlighting the visual specifications and the communication plan with Qwenta. I used Jira a project management tool to organize tasks and created a Kanban board to track project progress. I presented my deliverables, including the technical specifications and the planning. I also implemented a method for technological watch to stay updated with the latest advancements in the field.",
+            "technologiesUsed": ["Jira", "PowerPoint"],
+            "keywords": [
+                "Project management",
+                "Technical specifications",
+                "Technological watch",
+                "Planning",
+                "Kanban board"
+            ],
+            "competencies": [
+                "Utilizing a project management tool to track project progress",
+                "Writing technical specifications based on functional requirements",
+                "Breaking down features into tasks to prepare for development",
+                "Delivering a clear presentation of the technical solution",
+                "Implementing a method for technological watch"
+            ]
+        },
+        {
+            "title": "Improve Care Campaign",
+            "subtitle": "Graphic Design and Marketing",
+            "category": "Design",
+            "image": "improvecare.png",
+            "shortDescription": "Design work for the 'Improve Care' marketing campaign",
+            "detailedDescription": "As part of the global marketing campaign 'Reduce hospitalization. Improve care.', I contributed to the promotion of our portfolio of implantable medical devices. My role involved graphic design work, creating infographics and icons to raise awareness of our clinical results.\n\nFor this campaign, I designed an infographic that showcases the clinical outcomes of our implantable cardiac devices. These posters effectively communicate a wealth of information in a visually engaging manner. By incorporating graphs and icons, I ensured key messages are easily understood. Furthermore, we provided a link to our marketing website where customers can access detailed clinical papers for further information.\n",
+            "technologiesUsed": ["Adobe InDesign"],
+            "keywords": [
+                "Graphic Design",
+                "Marketing",
+                "Infographics",
+                "Visual Communication"
+            ],
+            "competencies": [
+                "Graphic Design",
+                "Marketing Campaign",
+                "Infographic Design",
+                "Icon Design",
+                "Data Visualization"
+            ]
+        },
+        {
+            "title": "Art Workshop Facilitator",
+            "subtitle": "Volunteering to Promote Art among Individuals in Need",
+            "category": "Personal Work",
+            "image": "volunteering.png",
+            "shortDescription": "Volunteer art workshop facilitator to promote art among individuals in need",
+            "detailedDescription": "As a volunteer at Art Explora, I participated in a unique experience of co-creating artworks with other participants throughout the month of October 2022. During this period, I acted as both a facilitator and a creator, fostering connections between associations, schools, and artists. At the pre-opening weekend of Hangar Y in Meudon, France, which welcomed over 10,000 attendees, I had the opportunity to share my experience with the public by explaining and discussing the workshops. It was a fantastic opportunity to engage with the community and promote access to art and culture for all.",
+            "technologiesUsed": [],
+            "keywords": [
+                "Volunteering",
+                "Art Workshops",
+                "Art Promotion",
+                "Social Engagement",
+                "Culture"
+            ],
+            "competencies": [
+                "Art Workshop Facilitation",
+                "Art and Culture Promotion",
+                "Creating Connections",
+                "Social Engagement"
+            ]
+        },
+        {
+            "title": "Painting & Drawing",
+            "subtitle": "My paintings and drawings projects",
+            "category": "Personal Work",
+            "image": "painting.png",
+            "shortDescription": "Selection of paintings and drawings capturing my perception of the world",
+            "detailedDescription": "During the first COVID-19 lockdown in 2020, I rediscovered the joys of painting and drawing, and I haven't stopped since. Through my art, I love to explore the beauty of the world around us and to express my own unique vision.\n\nOn this page, you'll find a selection of my pieces, including an oil pastel drawing, a ceramic painting, and some paintings that capture the beauty of nature. I've also included detailed pencil sketches of iconic Parisian buildings like the Saint Sulpice church and the Cortot concert hall. And for a touch of whimsy, don't miss my cute digital drawing of chatty pumpkins. Take a scroll through and enjoy!",
+            "technologiesUsed": [],
+            "keywords": [
+                "Painting",
+                "Drawing",
+                "Art",
+                "Sketching",
+                "Digital Art"
+            ],
+            "competencies": [
+                "Painting",
+                "Drawing",
+                "Artistic Expression",
+                "Observational Skills",
+                "Creativity"
             ]
         }
     ],

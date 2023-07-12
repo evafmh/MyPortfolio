@@ -50,7 +50,11 @@ const Home = () => {
             <Header title={data.header.title} list={data.header.list} />
             <About data={data.about} id="about" />
             <MySkills skills={data.skills} />
-            <Gallery projects={data.projects} />
+            <Gallery
+                projects={data.projects}
+                header={data.projectsHeader}
+                id="works"
+            />
             <Contact data={data.contact} id="contact" />
             <Footer
                 githubLink={data.contact.githubLink}

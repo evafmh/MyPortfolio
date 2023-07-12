@@ -22,8 +22,8 @@
 
     "about": {
         "name": "Eva Famechon",
-        "job": "Développeur Front-end",
-        "bio": "Je suis une développeur front-end passionnée avec de l'expérience en React...",
+        "job": "Développeur Web",
+        "bio": "Je suis une développeur web passionnée avec de l'expérience en React...",
         "cv": "Télécharger le CV",
         "cvFileName": "CV.pdf"
     },
@@ -69,25 +69,32 @@
         }
     ],
 
+    "projectsHeader": {
+        "title": "Mes Projets",
+        "allCategories": "Tous",
+        "categories": ["Développement Web", "Design", "Travaux Personnels"]
+    },
+
     "projects": [
         {
             "title": "Kasa",
             "subtitle": "Frontend en React d'une plateforme de location",
             "category": "Développement Web",
             "shortDescription": "Une application web frontend en React pour une plateforme de location d'hébergements",
-            "image": "path/to/kasa-frontend.jpg"
+            "image": "kasa.png"
         },
         {
             "title": "Mon Vieux Grimoire",
             "subtitle": "Backend d'un site de notation de livres",
             "category": "Développement Web",
             "shortDescription": "Une API backend pour gérer les livres, les utilisateurs et les avis",
-            "image": "path/to/monvieuxgrimoire-backend.jpg"
+            "image": "grimoire.jpg"
         },
         {
             "title": "Mon Vieux Grimoire",
             "subtitle": "Backend d'un site de notation de livres",
             "category": "Développement Web",
+            "image": "grimoire.jpg",
             "shortDescription": "Développement du backend d'un site de notation de livres pour une chaîne de librairies",
             "detailedDescription": "Mon Vieux Grimoire est une application web qui permet aux membres d'ajouter et de noter des livres. J'ai été chargé de la création et du développement du backend de ce site. Mon rôle consistait à mettre en place l'API RESTful qui gère les opérations liées aux livres, l'authentification des utilisateurs et la gestion des avis. J'ai utilisé Node.js et Express.js pour le développement côté serveur, ainsi que MongoDB comme base de données en utilisant Mongoose comme ODM. J'ai également mis en œuvre l'authentification des utilisateurs à l'aide de JSON Web Tokens (JWT) pour assurer la sécurité des données. Le backend offre des fonctionnalités robustes telles que la création, la lecture, la mise à jour et la suppression (CRUD) des livres, la gestion des utilisateurs et la validation des avis. J'ai travaillé en collaboration avec un développeur frontend pour intégrer harmonieusement le frontend avec le backend. Le projet a suivi les meilleures pratiques en matière de sécurité des données, de validation d'emails uniques et de mise en place de middlewares pour la gestion des requêtes.",
             "technologiesUsed": [
@@ -115,7 +122,8 @@
         {
             "title": "Kasa - Application web de location immobilière",
             "subtitle": "Front-end avec React d'une plateforme de location",
-            "category": "Développement web",
+            "category": "Développement Web",
+            "image": "kasa.png",
             "shortDescription": "Développement de la plateforme web de location immobilière pour l'entreprise Kasa",
             "detailedDescription": "Kasa est une entreprise spécialisée dans la location d'appartements entre particuliers en France. Dans ce projet, j'ai été chargé de développer le front-end application web de location immobilière pour Kasa en utilisant la technologie React. Mon rôle a consisté à créer et développer les composants React, mettre en place les routes avec React Router, et suivre les maquettes fournies. J'ai ajouté une animation CSS sur l'ouverture/fermeture du composant Collapse pour améliorer l'expérience utilisateur. Le projet a suivi les guidelines de codage de Kasa pour assurer la qualité du code.",
             "technologiesUsed": [
@@ -144,7 +152,8 @@
         {
             "title": "Débogage et optimisation d'un site de photographe",
             "subtitle": "Optimisation SEO et résolution des problèmes techniques",
-            "category": "Développement web",
+            "category": "Développement Web",
+            "image": "nina.jpg",
             "shortDescription": "Optimisation et débogage d'un site web pour une photographe professionnelle",
             "detailedDescription": "Dans ce projet, j'ai optimisé le site web d'une photographe professionnelle, Nina Carducci, en améliorant ses performances et son référencement. J'ai analysé le site, réduit le temps de chargement et corrigé les erreurs d'accessibilité. J'ai optimisé les images sans compromettre leur qualité, amélioré le code et ajouté des balises méta et Schema.org pour le référencement local. J'ai résolu des problèmes spécifiques tels que la navigation défectueuse dans la galerie et l'affichage incorrect des filtres. J'ai utilisé les Chrome DevTools pour déboguer le site et préparé un rapport d'intervention détaillé avec les performances avant et après l'optimisation.",
             "technologiesUsed": [
@@ -166,6 +175,96 @@
                 "Optimisation des performances d'un site web",
                 "Débogage d'un site web avec les Chrome DevTools",
                 "Rédaction d'un rapport d'intervention pour tester un site"
+            ]
+        },
+        {
+            "title": "Planification du projet Menu Maker by Qwenta",
+            "subtitle": "Gestion de projet, spécifications techniques et veille technologique",
+            "category": "Développement Web",
+            "image": "menumaker.png",
+            "shortDescription": "Planification du développement d'un site de menu pour Qwenta",
+            "detailedDescription": "Dans ce projet, j'ai planifié le développement du site Menu Maker by Qwenta en collaboration avec Soufiane, le Product Owner. J'ai réalisé une veille technologique pour générer des idées et définir les spécifications techniques du site. J'ai préparé une présentation claire et convaincante de la solution technique, mettant en avant les spécifications visuelles et le plan de communication avec Qwenta. J'ai utilisé Jira, un outil de gestion de projet, pour organiser les tâches et j'ai créé un tableau Kanban pour suivre l'avancement du projet. J'ai présenté mes livrables, y compris les spécifications techniques et la planification. J'ai également mis en place une méthode de veille technologique pour rester à jour avec les dernières avancées dans le domaine. ",
+            "technologiesUsed": ["Jira", "PowerPoint"],
+            "keywords": [
+                "Gestion de projet",
+                "Spécifications techniques",
+                "Veille technologique",
+                "Planification",
+                "Tableau Kanban"
+            ],
+            "competencies": [
+                "Utilisation d'un outil de gestion de projet pour suivre le déroulement du projet",
+                "Rédaction de spécifications techniques à partir des besoins fonctionnels",
+                "Décomposition des fonctionnalités en tâches pour préparer le développement",
+                "Présentation claire de la solution technique",
+                "Mise en place d'une méthode de veille technologique"
+            ]
+        },
+        {
+            "title": "Campagne \"Improve care\"",
+            "subtitle": "Design graphique et Marketing",
+            "category": "Design",
+            "image": "improvecare.png",
+            "shortDescription": "Travail de design pour la campagne marketing \"Improve care\"",
+            "detailedDescription": "Dans le cadre de la campagne mondiale de marketing 'Réduire l'hospitalisation. Améliorer les soins.', j'ai contribué à la promotion de notre portefeuille de dispositifs médicaux implantables. Mon rôle a impliqué un travail de design graphique, créant des infographies et des icônes pour sensibiliser aux résultats cliniques.\n\nPour cette campagne, j'ai conçu une infographie mettant en évidence les résultats cliniques de nos dispositifs cardiaques implantables. Ces affiches communiquent efficacement une grande quantité d'informations de manière visuellement attrayante. En incorporant des graphiques et des icônes, j'ai veillé à ce que les messages clés soient facilement compréhensibles. De plus, nous avons fourni un lien vers notre site web de marketing où les clients peuvent accéder à des articles cliniques détaillés pour plus d'informations.\n",
+            "technologiesUsed": ["Adobe InDesign"],
+            "keywords": [
+                "Design Graphique",
+                "Marketing",
+                "Infographies",
+                "Communication Visuelle"
+            ],
+            "competencies": [
+                "Design Graphique",
+                "Campagne Marketing",
+                "Conception d'Infographies",
+                "Conception d'Icônes",
+                "Visualisation de Données"
+            ]
+        },
+        {
+            "title": "Facilitateur d'Ateliers d'Art",
+            "subtitle": "Bénévolat pour promouvoir l'art auprès des personnes en difficultés",
+            "category": "Travaux Personnels",
+            "image": "volunteering.png",
+            "shortDescription": "Facilitateur d'ateliers d'art bénévole pour promouvoir l'art auprès des personnes en difficultés",
+            "detailedDescription": "En tant que bénévole chez Art Explora, j'ai participé à une expérience unique de co-création d'œuvres d'art avec d'autres participants tout au long du mois d'octobre 2022. J'ai joué un double rôle en tant que facilitateur et créateur, en établissant des liens entre les associations, les écoles et les artistes. Lors du week-end de préouverture de Hangar Y à Meudon, en France, qui a attiré plus de 10 000 visiteurs, j'ai eu l'opportunité de partager mon expérience avec le public, en expliquant et en échangeant sur les ateliers. J'ai pu m'engager avec la communauté et promouvoir l'accès à l'art et à la culture pour tous.",
+            "technologiesUsed": [],
+            "keywords": [
+                "Bénévolat",
+                "Ateliers d'Art",
+                "Promotion de l'Art",
+                "Engagement Social",
+                "Culture"
+            ],
+            "competencies": [
+                "Animation d'Ateliers d'Art",
+                "Promotion de l'Art et de la Culture",
+                "Création de Connexions",
+                "Engagement Social"
+            ]
+        },
+        {
+            "title": "Peinture et Dessin",
+            "subtitle": "Mes travaux de peinture et dessin",
+            "category": "Travaux Personnels",
+            "image": "painting.png",
+            "shortDescription": "Sélection de peintures et de dessins capturant ma perception du monde",
+            "detailedDescription": "Pendant le premier confinement dû à la COVID-19 en 2020, j'ai redécouvert les joies de la peinture et du dessin, et je n'ai pas arrêté depuis. À travers mon art, j'aime explorer la beauté du monde qui nous entoure et exprimer ma propre vision unique.\n\nSur cette page, vous trouverez une sélection de mes œuvres, comprenant un dessin aux pastels à l'huile, une peinture sur céramique et plusieurs tableaux capturant la beauté de la nature. J'ai également inclus des croquis détaillés au crayon de bâtiments emblématiques parisiens tels que l'église Saint-Sulpice et la salle de concert Cortot. Et pour une touche de fantaisie, ne manquez pas mon adorable dessin numérique de citrouilles bavardes. Parcourez et appréciez !",
+            "technologiesUsed": [],
+            "keywords": [
+                "Peinture",
+                "Dessin",
+                "Art",
+                "Croquis",
+                "Art Numérique"
+            ],
+            "competencies": [
+                "Peinture",
+                "Dessin",
+                "Expression Artistique",
+                "Observation",
+                "Créativité"
             ]
         }
     ],
