@@ -7,7 +7,7 @@
     background: $light-green-color
     display: flex
     flex-direction: column
-    padding: 20px 0
+    padding: 20px 0 60px 0
 
     .projects-header-title
         margin: 20px
@@ -45,9 +45,9 @@
             position: relative
             transition: all 0.3s ease
             height: 100%
+            color: $granite-color 
 
             &.active 
-                overflow: scroll
                 z-index: 1
                 transition: top 0.225s, width 0.3s, height 0.3s
                 width: 90vw
@@ -56,7 +56,14 @@
                 top: 50%
                 left: 50%
                 position: fixed
+                background: $green-color
 
+            .close
+                width: 100%
+                text-align: end
+
+                .close-icon
+                    cursor: pointer
 
             .project-image 
                 height: 30em
@@ -65,28 +72,39 @@
 
             .project-content 
                 opacity: 1
-                overflow: hidden
                 padding: 0
                 line-height: 1.5
                 transition: height 0.1s, opacity 0.1s
+                display: flex
+                flex-direction: column
+                align-items: center
+                height: 17em
+
+                > *
+                    flex-grow: 1
+                    margin: 0
+                    max-width: 92%
+
 
                 .project-title
-                    padding: 1.2em
+                    padding-top: 1.2em
 
-                .project-technologies-keyword
-                    display: inline-block
-                    margin: 5px
-                    padding: 5px 10px
-                    background-color: $light-purple-color
-                    color: $granite-color
-                    font-size: 14px
-                    border-radius: 4px
+                    &.expanded
+                        font-size: 2em
+
+                .project-technologies
+                    max-width: 85%
+                    .project-technologies-keyword
+                        display: inline-block
+                        margin: 5px
+                        padding: 5px 10px
+                        background-color: $light-purple-color
+                        color: $granite-color
+                        font-size: 14px
+                        border-radius: 4px
+
+                .project-links
+                    display: flex
+                    gap: 1em
     
     //Avoid scrollbar on the expanded card
-    .project-card.active
-        scrollbar-width: none
-        -ms-overflow-style: none
-
-        &::-webkit-scrollbar,
-        &::-webkit-scrollbar
-            display: none

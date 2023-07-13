@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { Grid, Card, CardMedia, CardContent, Button } from '@mui/material'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import './../../sassStyles/components/_gallery.sass'
 
 const Gallery = ({ projects, header, id }) => {
@@ -103,7 +107,10 @@ const Gallery = ({ projects, header, id }) => {
                                     className="close"
                                     onClick={handleCloseCard}
                                 >
-                                    ×
+                                    <FontAwesomeIcon
+                                        className="close-icon"
+                                        icon={faCircleXmark}
+                                    />{' '}
                                 </div>
                             )}
                             <CardMedia
@@ -113,29 +120,98 @@ const Gallery = ({ projects, header, id }) => {
                                 alt={project.title}
                             />
                             <CardContent className="project-content">
-                                <h3 className="project-title">
-                                    {project.subtitle}
-                                </h3>
-                                <div className="project-technologies">
-                                    {project.technologiesUsed.map(
-                                        (technology, index) => (
-                                            <span
-                                                key={index}
-                                                className="project-technologies-keyword"
-                                            >
-                                                {technology}
-                                            </span>
-                                        )
-                                    )}
-                                </div>
                                 {index === expandedCard ? (
-                                    <p className="project-description">
-                                        {project.detailedDescription}
-                                    </p>
+                                    <>
+                                        <h3 className="project-title expanded">
+                                            {project.title}
+                                        </h3>
+                                        <div className="project-technologies expanded">
+                                            {project.technologiesUsed.map(
+                                                (technology, index) => (
+                                                    <span
+                                                        key={index}
+                                                        className="project-technologies-keyword"
+                                                    >
+                                                        {technology}
+                                                    </span>
+                                                )
+                                            )}
+                                        </div>
+                                        <p className="project-description expanded">
+                                            {project.detailedDescription}
+                                        </p>
+                                        <div className="project-links">
+                                            {project.githubLink && (
+                                                <a
+                                                    href={project.githubLink}
+                                                    aria-label="Open GitHub repository"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    <FontAwesomeIcon
+                                                        className="project-icon"
+                                                        icon={faGithub}
+                                                    />
+                                                    <span>
+                                                        {
+                                                            project.githubLinkTitle
+                                                        }
+                                                    </span>
+                                                </a>
+                                            )}
+                                            {project.websiteLink && (
+                                                <a
+                                                    href={project.websiteLink}
+                                                    aria-label="Open website link"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    <FontAwesomeIcon
+                                                        className="project-icon"
+                                                        icon={faExternalLinkAlt}
+                                                    />
+                                                    <span>
+                                                        {
+                                                            project.websiteLinkTitle
+                                                        }
+                                                    </span>
+                                                </a>
+                                            )}
+                                        </div>
+                                    </>
                                 ) : (
-                                    <p className="project-description">
-                                        {project.shortDescription}
-                                    </p>
+                                    <>
+                                        <h3 className="project-title">
+                                            {project.subtitle}
+                                        </h3>
+                                        <div className="project-technologies">
+                                            {project.technologiesUsed.length > 0
+                                                ? project.technologiesUsed.map(
+                                                      (technology, index) => (
+                                                          <span
+                                                              key={index}
+                                                              className="project-technologies-keyword"
+                                                          >
+                                                              {technology}
+                                                          </span>
+                                                      )
+                                                  )
+                                                : project.keywords.map(
+                                                      (keyword, index) => (
+                                                          <span
+                                                              key={index}
+                                                              className="project-technologies-keyword"
+                                                          >
+                                                              {keyword}
+                                                          </span>
+                                                      )
+                                                  )}
+                                        </div>
+
+                                        <p className="project-description">
+                                            {project.shortDescription}
+                                        </p>
+                                    </>
                                 )}
                             </CardContent>
                         </Card>

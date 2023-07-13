@@ -85,6 +85,8 @@
                 "JWT",
                 "Bcrypt"
             ],
+            "githubLinkTitle": "Link to project Github repository",
+            "githubLink": "https://github.com/evafmh/P7-mon-vieux-grimoire-backend",
             "keywords": [
                 "CRUD",
                 "middleware",
@@ -114,6 +116,8 @@
                 "JavaScript",
                 "Figma"
             ],
+            "githubLinkTitle": "Link to project Github repository",
+            "githubLink": "https://github.com/evafmh/P6-kasa",
             "keywords": [
                 "React",
                 "CSS",
@@ -141,6 +145,10 @@
                 "CSS",
                 "JavaScript"
             ],
+            "githubLinkTitle": "Link to project Github repository",
+            "githubLink": "https://github.com/evafmh/P5_nina_carducci",
+            "websiteLinkTitle": "Link to project website",
+            "websiteLink": "https://evafmh.github.io/P5_nina_carducci/",
             "keywords": [
                 "Performance Optimization",
                 "Debugging",
@@ -230,7 +238,7 @@
             "image": "painting.png",
             "shortDescription": "Selection of paintings and drawings capturing my perception of the world",
             "detailedDescription": "During the first COVID-19 lockdown in 2020, I rediscovered the joys of painting and drawing, and I haven't stopped since. Through my art, I love to explore the beauty of the world around us and to express my own unique vision.\n\nOn this page, you'll find a selection of my pieces, including an oil pastel drawing, a ceramic painting, and some paintings that capture the beauty of nature. I've also included detailed pencil sketches of iconic Parisian buildings like the Saint Sulpice church and the Cortot concert hall. And for a touch of whimsy, don't miss my cute digital drawing of chatty pumpkins. Take a scroll through and enjoy!",
-            "technologiesUsed": [],
+            "technologiesUsed": ["PhotoShop", "Procreate"],
             "keywords": [
                 "Painting",
                 "Drawing",
@@ -254,6 +262,8 @@
             "shortDescription": "Created a dynamic portfolio website using JavaScript for an architect portfolio",
             "detailedDescription": "As a front-end developer, I developed architect Sophie Bluel's portfolio website. The project involved creating different sections of the website, including the presentation page, the admin login page, and a modal for uploading media. I manipulated the DOM with JavaScript to create dynamic and interactive elements, retrieved user data from forms, and handled user events. I followed the provided design from Figma and integrated back-end code to store and manage data. This project showcased my skills in JavaScript, DOM manipulation, and event handling.",
             "technologiesUsed": ["JavaScript", "HTML", "CSS", "Figma"],
+            "githubLinkTitle": "Link to project Github repository",
+            "githubLink": "https://github.com/evafmh/Portfolio-sophie-bluel-frontend",
             "keywords": [
                 "JavaScript",
                 "HTML",
@@ -276,6 +286,10 @@
             "shortDescription": "Development of the Booki website interface that allows users to find accommodations and activities in the city of their choice.",
             "detailedDescription": "I integrated the website interface using HTML and CSS. I received the design mockups and images and I created the HTML structure and applied the necessary CSS styles to match the design. I ensured the website was responsive and followed the provided breakpoints for different devices. Throughout the project, I adhered to coding best practices, used semantic HTML tags, and validated the code with W3C HTML and CSS validators. The website is compatible with the latest versions of Google Chrome and Mozilla Firefox. This project showcased my skills in HTML, CSS, responsive design, and attention to detail.",
             "technologiesUsed": ["HTML", "CSS", "Figma"],
+            "githubLinkTitle": "Link to project Github repository",
+            "githubLink": "https://github.com/evafmh/P2-Booki",
+            "websiteLinkTitle": "Link to project website",
+            "websiteLink": "https://evafmh.github.io/P2-Booki/",
             "keywords": [
                 "HTML",
                 "CSS",
