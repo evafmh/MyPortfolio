@@ -4,6 +4,8 @@ import './../../sassStyles/components/_gallery.sass'
 
 const Gallery = ({ projects, header, id }) => {
     const [selectedCategory, setSelectedCategory] = React.useState('all')
+    const [expandedCard, setExpandedCard] = useState(null)
+    const [imagePaths, setImagePaths] = useState({})
 
     const filteredProjects =
         selectedCategory === 'all'
@@ -17,7 +19,13 @@ const Gallery = ({ projects, header, id }) => {
         setSelectedCategory('all')
     }
 
-    const [imagePaths, setImagePaths] = useState({})
+    const handleCardClick = (index) => {
+        setExpandedCard(index === expandedCard ? null : index)
+    }
+
+    const handleCloseCard = () => {
+        setExpandedCard(null)
+    }
 
     useEffect(() => {
         const loadImagePaths = async () => {
@@ -84,9 +92,20 @@ const Gallery = ({ projects, header, id }) => {
                 {filteredProjects.map((project, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
                         <Card
-                            className="project-card"
+                            className={`project-card${
+                                index === expandedCard ? ' active' : ''
+                            }`}
                             data-category={project.category}
+                            onClick={() => handleCardClick(index)}
                         >
+                            {index === expandedCard && (
+                                <div
+                                    className="close"
+                                    onClick={handleCloseCard}
+                                >
+                                    ×
+                                </div>
+                            )}
                             <CardMedia
                                 className="project-image"
                                 component="img"
@@ -97,9 +116,27 @@ const Gallery = ({ projects, header, id }) => {
                                 <h3 className="project-title">
                                     {project.subtitle}
                                 </h3>
-                                <p className="project-description">
-                                    {project.shortDescription}
-                                </p>
+                                <div className="project-technologies">
+                                    {project.technologiesUsed.map(
+                                        (technology, index) => (
+                                            <span
+                                                key={index}
+                                                className="project-technologies-keyword"
+                                            >
+                                                {technology}
+                                            </span>
+                                        )
+                                    )}
+                                </div>
+                                {index === expandedCard ? (
+                                    <p className="project-description">
+                                        {project.detailedDescription}
+                                    </p>
+                                ) : (
+                                    <p className="project-description">
+                                        {project.shortDescription}
+                                    </p>
+                                )}
                             </CardContent>
                         </Card>
                     </Grid>
