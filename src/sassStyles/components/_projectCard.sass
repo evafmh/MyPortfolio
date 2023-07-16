@@ -1,0 +1,116 @@
+@import '../base/variables'
+@import '../base/typography'
+
+
+// Keywords generic style
+%keyword-styles 
+    display: inline-block
+    margin: 5px
+    padding: 5px 10px
+    background-color: $light-purple-color
+    color: $granite-color
+    font-size: 14px
+    border-radius: 4px
+
+
+.project-card 
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 1em
+    position: relative
+    transition: all 0.3s ease
+    height: 100%
+    color: $granite-color
+
+    &.active 
+        z-index: 1
+        transition: top 0.225s, width 0.3s, height 0.3s
+        width: 90vw
+        max-height: 90vh
+        transform: translate(-50%, -50%)
+        top: 50%
+        left: 50%
+        position: fixed
+        background: $green-color
+    
+
+    .close 
+        width: 100%
+        text-align: end
+
+        .close-icon 
+            cursor: pointer
+        
+    
+    .card-main-elements
+        display: flex
+        flex-direction: column
+        justify-content: center
+        width: 100%
+
+        &.expanded
+            flex-direction: row
+
+    .project-image 
+        height: 30em
+        width: 30em
+        margin: auto
+    
+
+    .project-main-content 
+        opacity: 1
+        padding: 0
+        line-height: 1.5
+        transition: height 0.1s, opacity 0.1s
+        display: flex
+        flex-direction: column
+        align-items: center
+        height: 17em
+
+        > * 
+            flex-grow: 1
+            margin: 0
+            max-width: 92%
+
+        &.expanded
+            height: min-content
+            align-content: flex-start
+
+        .project-title 
+            padding-top: 1.2em
+
+            &.expanded 
+                padding: 0.5em 0
+                font-size: 2em
+
+        .project-technologies 
+            max-width: 85%
+
+            .project-technologies-keyword 
+                @extend %keyword-styles
+
+        .project-keywords
+            .project-keyword
+                @extend %keyword-styles
+                background-color: $granite-color
+                color: white
+
+    .additional-card-content
+        width: 100%
+        padding: 3em 0
+
+        .project-links 
+            display: flex
+            gap: 1em
+
+            a
+                text-decoration: none
+                color: $granite-color
+
+            .project-icon
+                font-size: x-large
+
+            span
+                padding-left: 0.7em
+

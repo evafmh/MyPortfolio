@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import { Grid, Card, CardMedia, CardContent, Button } from '@mui/material'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { Grid, Button } from '@mui/material'
+import ProjectCard from '../ProjectCard/ProjectCard'
 import './../../sassStyles/components/_gallery.sass'
 
 const Gallery = ({ projects, header, id }) => {
-    const [selectedCategory, setSelectedCategory] = React.useState('all')
+    const [selectedCategory, setSelectedCategory] = useState('all')
     const [expandedCard, setExpandedCard] = useState(null)
     const [imagePaths, setImagePaths] = useState({})
 
@@ -95,126 +92,13 @@ const Gallery = ({ projects, header, id }) => {
             <Grid className="projects-gallery" container spacing={2}>
                 {filteredProjects.map((project, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
-                        <Card
-                            className={`project-card${
-                                index === expandedCard ? ' active' : ''
-                            }`}
-                            data-category={project.category}
-                            onClick={() => handleCardClick(index)}
-                        >
-                            {index === expandedCard && (
-                                <div
-                                    className="close"
-                                    onClick={handleCloseCard}
-                                >
-                                    <FontAwesomeIcon
-                                        className="close-icon"
-                                        icon={faCircleXmark}
-                                    />{' '}
-                                </div>
-                            )}
-                            <CardMedia
-                                className="project-image"
-                                component="img"
-                                src={imagePaths[project.title] || ''}
-                                alt={project.title}
-                            />
-                            <CardContent className="project-content">
-                                {index === expandedCard ? (
-                                    <>
-                                        <h3 className="project-title expanded">
-                                            {project.title}
-                                        </h3>
-                                        <div className="project-technologies expanded">
-                                            {project.technologiesUsed.map(
-                                                (technology, index) => (
-                                                    <span
-                                                        key={index}
-                                                        className="project-technologies-keyword"
-                                                    >
-                                                        {technology}
-                                                    </span>
-                                                )
-                                            )}
-                                        </div>
-                                        <p className="project-description expanded">
-                                            {project.detailedDescription}
-                                        </p>
-                                        <div className="project-links">
-                                            {project.githubLink && (
-                                                <a
-                                                    href={project.githubLink}
-                                                    aria-label="Open GitHub repository"
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                >
-                                                    <FontAwesomeIcon
-                                                        className="project-icon"
-                                                        icon={faGithub}
-                                                    />
-                                                    <span>
-                                                        {
-                                                            project.githubLinkTitle
-                                                        }
-                                                    </span>
-                                                </a>
-                                            )}
-                                            {project.websiteLink && (
-                                                <a
-                                                    href={project.websiteLink}
-                                                    aria-label="Open website link"
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                >
-                                                    <FontAwesomeIcon
-                                                        className="project-icon"
-                                                        icon={faExternalLinkAlt}
-                                                    />
-                                                    <span>
-                                                        {
-                                                            project.websiteLinkTitle
-                                                        }
-                                                    </span>
-                                                </a>
-                                            )}
-                                        </div>
-                                    </>
-                                ) : (
-                                    <>
-                                        <h3 className="project-title">
-                                            {project.subtitle}
-                                        </h3>
-                                        <div className="project-technologies">
-                                            {project.technologiesUsed.length > 0
-                                                ? project.technologiesUsed.map(
-                                                      (technology, index) => (
-                                                          <span
-                                                              key={index}
-                                                              className="project-technologies-keyword"
-                                                          >
-                                                              {technology}
-                                                          </span>
-                                                      )
-                                                  )
-                                                : project.keywords.map(
-                                                      (keyword, index) => (
-                                                          <span
-                                                              key={index}
-                                                              className="project-technologies-keyword"
-                                                          >
-                                                              {keyword}
-                                                          </span>
-                                                      )
-                                                  )}
-                                        </div>
-
-                                        <p className="project-description">
-                                            {project.shortDescription}
-                                        </p>
-                                    </>
-                                )}
-                            </CardContent>
-                        </Card>
+                        <ProjectCard
+                            project={project}
+                            expanded={index === expandedCard}
+                            onCardClick={() => handleCardClick(index)}
+                            onCloseCard={handleCloseCard}
+                            imagePaths={imagePaths}
+                        />
                     </Grid>
                 ))}
             </Grid>
