@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
+import './../../sassStyles/components/_skill.sass'
+
 const Skill = ({ image, title, description, keywords }) => {
     const [imagePath, setImagePath] = useState('')
 

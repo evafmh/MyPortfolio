@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './../../sassStyles/components/_header.sass'
+
 const Header = ({ title, list }) => {
     return (
         <header className="header-container">

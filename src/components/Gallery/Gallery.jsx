@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Grid, Button } from '@mui/material'
 import ProjectCard from '../ProjectCard/ProjectCard'
+
 import './../../sassStyles/components/_gallery.sass'
 
 const Gallery = ({ projects, header, id }) => {

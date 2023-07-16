@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './../../sassStyles/components/_textbox.sass'
+
 const Textbox = ({ label, type, rows }) => {
     const inputProps = {
         name: label.toLowerCase(),

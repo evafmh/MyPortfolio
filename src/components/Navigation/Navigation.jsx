@@ -1,3 +1,5 @@
+import './../../sassStyles/components/_navigation.sass'
+
 function Navigation(props) {
     const { aboutText, worksText, contactText } = props
 

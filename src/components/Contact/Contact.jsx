@@ -4,6 +4,9 @@ import Link from '../Link/Link'
 import Textbox from '../Textbox/Textbox'
 import SocialLinks from '../SocialLinks/SocialLinks'
 
+import './../../sassStyles/components/_contact.sass'
+
+
 const Contact = ({ data, id }) => {
     const {
         title,

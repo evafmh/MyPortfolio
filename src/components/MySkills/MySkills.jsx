@@ -1,6 +1,8 @@
 import React from 'react'
 import Skill from '../Skill/Skill'
 
+import './../../sassStyles/components/_mySkills.sass'
+
 const MySkills = ({ skills }) => {
     return (
         <section className="my-skills-container">

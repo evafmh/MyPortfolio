@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './../../sassStyles/components/_logo.sass'
+
 function Logo(props) {
     const { initials, firstName, lastName } = props
 

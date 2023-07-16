@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from '../Link/Link'
 
+import './../../sassStyles/components/_about.sass'
+
 const About = ({ data, id }) => {
     const { name, job, bio, cv, cvFileName } = data
 

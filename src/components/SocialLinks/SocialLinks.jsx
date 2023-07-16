@@ -1,6 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import './../../sassStyles/components/_socialLinks.sass'
+
 const SocialLinks = ({ Links }) => {
     return (
         <div className="social-links">

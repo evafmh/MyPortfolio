@@ -3,6 +3,8 @@ import Logo from '../Logo/Logo'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import SocialLinks from '../SocialLinks/SocialLinks'
 
+import './../../sassStyles/components/_footer.sass'
+
 const Footer = ({ githubLink, linkedinLink }) => {
     const socialLinksData = [
         { link: githubLink, icon: faGithub },

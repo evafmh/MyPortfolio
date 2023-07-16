@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './../../sassStyles/components/_language.sass'
+
 const Language = ({ flag, abbreviation, onClick }) => {
     return (
         <div className="language-container" onClick={onClick}>
