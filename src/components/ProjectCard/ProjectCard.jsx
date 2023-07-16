@@ -41,7 +41,9 @@ const ProjectCard = ({
                 src={imagePaths[project.title] || ''}
                 alt={project.title}
             />
-            <CardContent className="project-main-content">
+            <CardContent
+                className={`project-main-content${expanded ? ' expanded' : ''}`}
+            >
                 {expanded ? (
                     /* Contenu étendu */
                     <Grid container spacing={2}>
