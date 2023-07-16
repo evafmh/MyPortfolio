@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from '../Link/Link'
+import profileImage from '../../assets/images/profile.jpg'
 
 import './../../sassStyles/components/_about.sass'
 
@@ -25,7 +26,7 @@ const About = ({ data, id }) => {
                             <image
                                 width="1"
                                 preserveAspectRatio="xMidYMid slice"
-                                xlinkHref="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+                                xlinkHref={profileImage}
                             />
                         </pattern>
                     </defs>
