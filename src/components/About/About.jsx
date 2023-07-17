@@ -7,6 +7,8 @@ import './../../sassStyles/components/_about.sass'
 const About = ({ data, id }) => {
     const { name, job, bio, cv, cvFileName } = data
 
+    const paragraphs = bio.split('\n\n')
+
     return (
         <div id={id} className="about-container">
             <div className="about-left">
@@ -44,7 +46,11 @@ const About = ({ data, id }) => {
             <div className="about-right">
                 <h2 className="about-name">{name}</h2>
                 <h3 className="about-job">{job}</h3>
-                <p className="about-bio">{bio}</p>
+                {paragraphs.map((paragraph, index) => (
+                    <p key={index} className="about-bio">
+                        {paragraph}
+                    </p>
+                ))}
 
                 <Link
                     href={`/${cvFileName}`}

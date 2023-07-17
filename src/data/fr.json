@@ -11,7 +11,7 @@
     },
 
     "header": {
-        "title": "Développeur Web",
+        "title": "Développeuse Web",
         "list": [
             "Design",
             "Front-End",
@@ -22,8 +22,8 @@
 
     "about": {
         "name": "Eva Famechon",
-        "job": "Développeur Web",
-        "bio": "Je suis une développeur web passionnée avec de l'expérience en React...",
+        "job": "Développeuse Web",
+        "bio": "Je suis Eva, développeuse web frontend passionnée par la création d'expériences web visuellement impressionnantes et conviviales.\n\n Ancienne chef de produit marketing, j'ai choisi de me consacrer au développement web après une formation de 8 mois chez OpenClassrooms. \n\n Ma créativité et mon souci du détail sont nourris par ma passion pour l'art sous toutes ses formes, de la peinture à la musique.",
         "cv": "Télécharger le CV",
         "cvFileName": "CV.pdf"
     },
@@ -44,7 +44,7 @@
         },
         {
             "title": "Développement Web Back-end",
-            "description": "J'ai des connaissances en développement web back-end",
+            "description": "J'ai une solide compréhension des technologies back-end.",
             "image": "backend.png",
             "keywords": [
                 "Node.js",
@@ -267,7 +267,7 @@
             "category": "Développement Web",
             "image": "architecte.png",
             "shortDescription": "Création d'un site portfolio dynamique en utilisant JavaScript pour un portfolio d'une architecte",
-            "detailedDescription": "En tant que développeur front-end, j'ai réalisé le site portfolio de Sophie Bluel - architecte. Le projet a impliqué la création de différentes sections du site, notamment la page de présentation, la page de connexion administrateur et une modale pour télécharger des médias. J'ai manipulé le DOM avec JavaScript pour créer des éléments dynamiques et interactifs, récupéré les données utilisateur à partir de formulaires et géré les événements utilisateurs. J'ai suivi le design fourni dans Figma et intégré du code back-end pour stocker et gérer les données. Ce projet met en avant mes compétences en JavaScript, manipulation du DOM et gestion des événements.",
+            "detailedDescription": "En tant que développeuse front-end, j'ai réalisé le site portfolio de Sophie Bluel - architecte. Le projet a impliqué la création de différentes sections du site, notamment la page de présentation, la page de connexion administrateur et une modale pour télécharger des médias. J'ai manipulé le DOM avec JavaScript pour créer des éléments dynamiques et interactifs, récupéré les données utilisateur à partir de formulaires et géré les événements utilisateurs. J'ai suivi le design fourni dans Figma et intégré du code back-end pour stocker et gérer les données. Ce projet met en avant mes compétences en JavaScript, manipulation du DOM et gestion des événements.",
             "technologiesUsed": ["JavaScript", "HTML", "CSS", "Figma"],
             "githubLinkTitle": "Lien vers le repo Github du projet",
             "githubLink": "https://github.com/evafmh/Portfolio-sophie-bluel-frontend",

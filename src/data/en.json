@@ -18,7 +18,7 @@
     "about": {
         "name": "Eva Famechon",
         "job": "Web Developer",
-        "bio": "I'm a passionate web developer with experience in React...",
+        "bio": "I'm Eva, a passionate frontend web developer. \n\nAfter an 8-month training at OpenClassrooms, I transitioned from marketing to explore web development. I'm excited to create visually stunning and user-friendly web experiences. \n\nMy love for all forms of art fuels my creativity and attention to detail.",
         "cv": "Download resume",
         "cvFileName": "resume.pdf"
     },
@@ -38,7 +38,7 @@
         },
         {
             "title": "Back-end Web Development",
-            "description": "I have knowledge in back-end web development.",
+            "description": "I have a solid understanding of backend technologies.",
             "image": "backend.png",
             "keywords": [
                 "Node.js",
