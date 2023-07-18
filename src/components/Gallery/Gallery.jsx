@@ -1,8 +1,17 @@
 import React, { useEffect, useState } from 'react'
-import { Grid, Button } from '@mui/material'
+import { Grid, Button, createTheme, ThemeProvider } from '@mui/material'
 import ProjectCard from '../ProjectCard/ProjectCard'
 
 import './../../sassStyles/components/_gallery.sass'
+
+const theme = createTheme({
+    breakpoints: {
+        values: {
+            md: 768,
+            lg: 1100,
+        },
+    },
+})
 
 const Gallery = ({ projects, header, id }) => {
     const [selectedCategory, setSelectedCategory] = useState('all')
@@ -90,19 +99,21 @@ const Gallery = ({ projects, header, id }) => {
                     ))}
                 </div>
             </div>
-            <Grid className="projects-gallery" container spacing={2}>
-                {filteredProjects.map((project, index) => (
-                    <Grid item xs={12} sm={6} md={4} key={index}>
-                        <ProjectCard
-                            project={project}
-                            expanded={index === expandedCard}
-                            onCardClick={() => handleCardClick(index)}
-                            onCloseCard={handleCloseCard}
-                            imagePaths={imagePaths}
-                        />
-                    </Grid>
-                ))}
-            </Grid>
+            <ThemeProvider theme={theme}>
+                <Grid className="projects-gallery" container spacing={2}>
+                    {filteredProjects.map((project, index) => (
+                        <Grid item md={6} lg={4} key={index}>
+                            <ProjectCard
+                                project={project}
+                                expanded={index === expandedCard}
+                                onCardClick={() => handleCardClick(index)}
+                                onCloseCard={handleCloseCard}
+                                imagePaths={imagePaths}
+                            />
+                        </Grid>
+                    ))}
+                </Grid>
+            </ThemeProvider>
         </div>
     )
 }

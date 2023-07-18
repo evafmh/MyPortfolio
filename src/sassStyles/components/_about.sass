@@ -5,22 +5,41 @@
     display: flex
     align-items: center
     background-color: $background-light-purple-color
+    padding-top: 0.5em
+    padding-bottom: 0.5em
+
+    @media (max-width: 768px) 
+        flex-direction: column
+        align-content: center
+        height: fit-content
+        padding-bottom: 1.5em
+
 
 .about-left
     flex: 1
 
+    @media (max-width: 768px) 
+        flex: none
+        width: 100%
+
 .about-right
     flex: 2
     padding: 0 20px
+
+    @media (max-width: 768px) 
+        flex: none
+        width: 100%
+        text-align: center
 
 .about-name
     font-size: 24px
     font-weight: bold
 
 .about-job
-    font-size: 18px
-    font-style: italic
-    margin-top: 10px
+    font-size: 14px
+    margin-top: 6px
+    text-transform: uppercase
+    opacity: 0.6
 
 .about-bio
     margin-top: 20px

@@ -140,6 +140,28 @@
             ]
         },
         {
+            "title": "Campagne \"Improve care\"",
+            "subtitle": "Design graphique et Marketing",
+            "category": "Design",
+            "image": "improvecare.png",
+            "shortDescription": "Travail de design pour la campagne marketing \"Improve care\"",
+            "detailedDescription": "Dans le cadre de la campagne mondiale de marketing 'Réduire l'hospitalisation. Améliorer les soins.', j'ai contribué à la promotion de notre portefeuille de dispositifs médicaux implantables. Mon rôle a impliqué un travail de design graphique, créant des infographies et des icônes pour sensibiliser aux résultats cliniques.\n\nPour cette campagne, j'ai conçu une infographie mettant en évidence les résultats cliniques de nos dispositifs cardiaques implantables. Ces affiches communiquent efficacement une grande quantité d'informations de manière visuellement attrayante. En incorporant des graphiques et des icônes, j'ai veillé à ce que les messages clés soient facilement compréhensibles. De plus, nous avons fourni un lien vers notre site web de marketing où les clients peuvent accéder à des articles cliniques détaillés pour plus d'informations.\n",
+            "technologiesUsed": ["Adobe InDesign"],
+            "keywords": [
+                "Design Graphique",
+                "Marketing",
+                "Infographies",
+                "Communication Visuelle"
+            ],
+            "competencies": [
+                "Design Graphique",
+                "Campagne Marketing",
+                "Conception d'Infographies",
+                "Conception d'Icônes",
+                "Visualisation de Données"
+            ]
+        },
+        {
             "title": "Débogage et optimisation d'un site de photographe",
             "subtitle": "Optimisation SEO et résolution des problèmes techniques",
             "category": "Développement Web",
@@ -169,51 +191,6 @@
                 "Optimisation des performances d'un site web",
                 "Débogage d'un site web avec les Chrome DevTools",
                 "Rédaction d'un rapport d'intervention pour tester un site"
-            ]
-        },
-        {
-            "title": "Planification du projet Menu Maker by Qwenta",
-            "subtitle": "Gestion de projet, spécifications techniques et veille technologique",
-            "category": "Développement Web",
-            "image": "menumaker.png",
-            "shortDescription": "Planification du développement d'un site de menu pour Qwenta",
-            "detailedDescription": "Dans ce projet, j'ai planifié le développement du site Menu Maker by Qwenta en collaboration avec Soufiane, le Product Owner. J'ai réalisé une veille technologique pour générer des idées et définir les spécifications techniques du site. J'ai préparé une présentation claire et convaincante de la solution technique, mettant en avant les spécifications visuelles et le plan de communication avec Qwenta. J'ai utilisé Jira, un outil de gestion de projet, pour organiser les tâches et j'ai créé un tableau Kanban pour suivre l'avancement du projet. J'ai présenté mes livrables, y compris les spécifications techniques et la planification. J'ai également mis en place une méthode de veille technologique pour rester à jour avec les dernières avancées dans le domaine. ",
-            "technologiesUsed": ["Jira", "PowerPoint"],
-            "keywords": [
-                "Gestion de projet",
-                "Spécifications techniques",
-                "Veille technologique",
-                "Planification",
-                "Tableau Kanban"
-            ],
-            "competencies": [
-                "Utilisation d'un outil de gestion de projet pour suivre le déroulement du projet",
-                "Rédaction de spécifications techniques à partir des besoins fonctionnels",
-                "Décomposition des fonctionnalités en tâches pour préparer le développement",
-                "Présentation claire de la solution technique",
-                "Mise en place d'une méthode de veille technologique"
-            ]
-        },
-        {
-            "title": "Campagne \"Improve care\"",
-            "subtitle": "Design graphique et Marketing",
-            "category": "Design",
-            "image": "improvecare.png",
-            "shortDescription": "Travail de design pour la campagne marketing \"Improve care\"",
-            "detailedDescription": "Dans le cadre de la campagne mondiale de marketing 'Réduire l'hospitalisation. Améliorer les soins.', j'ai contribué à la promotion de notre portefeuille de dispositifs médicaux implantables. Mon rôle a impliqué un travail de design graphique, créant des infographies et des icônes pour sensibiliser aux résultats cliniques.\n\nPour cette campagne, j'ai conçu une infographie mettant en évidence les résultats cliniques de nos dispositifs cardiaques implantables. Ces affiches communiquent efficacement une grande quantité d'informations de manière visuellement attrayante. En incorporant des graphiques et des icônes, j'ai veillé à ce que les messages clés soient facilement compréhensibles. De plus, nous avons fourni un lien vers notre site web de marketing où les clients peuvent accéder à des articles cliniques détaillés pour plus d'informations.\n",
-            "technologiesUsed": ["Adobe InDesign"],
-            "keywords": [
-                "Design Graphique",
-                "Marketing",
-                "Infographies",
-                "Communication Visuelle"
-            ],
-            "competencies": [
-                "Design Graphique",
-                "Campagne Marketing",
-                "Conception d'Infographies",
-                "Conception d'Icônes",
-                "Visualisation de Données"
             ]
         },
         {
@@ -308,6 +285,30 @@
             "competencies": [
                 "Intégrer du contenu conformément à une maquette",
                 "Implémenter une interface responsive"
+            ]
+        },
+
+        {
+            "title": "Planification du projet Menu Maker by Qwenta",
+            "subtitle": "Gestion de projet, spécifications techniques et veille technologique",
+            "category": "Développement Web",
+            "image": "menumaker.png",
+            "shortDescription": "Planification du développement d'un site de menu pour Qwenta",
+            "detailedDescription": "Dans ce projet, j'ai planifié le développement du site Menu Maker by Qwenta en collaboration avec Soufiane, le Product Owner. J'ai réalisé une veille technologique pour générer des idées et définir les spécifications techniques du site. J'ai préparé une présentation claire et convaincante de la solution technique, mettant en avant les spécifications visuelles et le plan de communication avec Qwenta. J'ai utilisé Jira, un outil de gestion de projet, pour organiser les tâches et j'ai créé un tableau Kanban pour suivre l'avancement du projet. J'ai présenté mes livrables, y compris les spécifications techniques et la planification. J'ai également mis en place une méthode de veille technologique pour rester à jour avec les dernières avancées dans le domaine. ",
+            "technologiesUsed": ["Jira", "PowerPoint"],
+            "keywords": [
+                "Gestion de projet",
+                "Spécifications techniques",
+                "Veille technologique",
+                "Planification",
+                "Tableau Kanban"
+            ],
+            "competencies": [
+                "Utilisation d'un outil de gestion de projet pour suivre le déroulement du projet",
+                "Rédaction de spécifications techniques à partir des besoins fonctionnels",
+                "Décomposition des fonctionnalités en tâches pour préparer le développement",
+                "Présentation claire de la solution technique",
+                "Mise en place d'une méthode de veille technologique"
             ]
         }
     ],

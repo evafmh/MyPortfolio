@@ -18,7 +18,7 @@
     "about": {
         "name": "Eva Famechon",
         "job": "Web Developer",
-        "bio": "I'm Eva, a passionate frontend web developer. \n\nAfter an 8-month training at OpenClassrooms, I transitioned from marketing to explore web development. I'm excited to create visually stunning and user-friendly web experiences. \n\nMy love for all forms of art fuels my creativity and attention to detail.",
+        "bio": "I'm Eva, a frontend web developer passionate about creating visually stunning and user-friendly web experiences. \n\nAfter an 8-month training at OpenClassrooms, I transitioned from marketing to explore web development. \n\nMy love for all forms of art fuels my creativity and attention to detail.",
         "cv": "Download resume",
         "cvFileName": "resume.pdf"
     },
@@ -133,6 +133,28 @@
             ]
         },
         {
+            "title": "Improve Care Campaign",
+            "subtitle": "Graphic Design and Marketing",
+            "category": "Design",
+            "image": "improvecare.png",
+            "shortDescription": "Design work for the 'Improve Care' marketing campaign",
+            "detailedDescription": "As part of the global marketing campaign 'Reduce hospitalization. Improve care.', I contributed to the promotion of our portfolio of implantable medical devices. My role involved graphic design work, creating infographics and icons to raise awareness of our clinical results.\n\nFor this campaign, I designed an infographic that showcases the clinical outcomes of our implantable cardiac devices. These posters effectively communicate a wealth of information in a visually engaging manner. By incorporating graphs and icons, I ensured key messages are easily understood. Furthermore, we provided a link to our marketing website where customers can access detailed clinical papers for further information.\n",
+            "technologiesUsed": ["Adobe InDesign"],
+            "keywords": [
+                "Graphic Design",
+                "Marketing",
+                "Infographics",
+                "Visual Communication"
+            ],
+            "competencies": [
+                "Graphic Design",
+                "Marketing Campaign",
+                "Infographic Design",
+                "Icon Design",
+                "Data Visualization"
+            ]
+        },
+        {
             "title": "Debugging and Optimization of a Photographer's Website",
             "subtitle": "SEO Optimization and Technical Issue Resolution",
             "category": "Web Development",
@@ -162,51 +184,6 @@
                 "Optimizing website performance",
                 "Debugging a website using Chrome DevTools",
                 "Writing an intervention report to test a website"
-            ]
-        },
-        {
-            "title": "Planning of Menu Maker by Qwenta Project",
-            "subtitle": "Project management, technical specifications, and technological watch",
-            "category": "Web Development",
-            "image": "menumaker.png",
-            "shortDescription": "Planning the development of a menu website for Qwenta",
-            "detailedDescription": "In this project, I planned the development of the Menu Maker application by Qwenta in collaboration with Soufiane, the Product Owner. I conducted technological watch to generate ideas and define the technical specifications of the website. I prepared a clear and convincing presentation of the technical solution, highlighting the visual specifications and the communication plan with Qwenta. I used Jira a project management tool to organize tasks and created a Kanban board to track project progress. I presented my deliverables, including the technical specifications and the planning. I also implemented a method for technological watch to stay updated with the latest advancements in the field.",
-            "technologiesUsed": ["Jira", "PowerPoint"],
-            "keywords": [
-                "Project management",
-                "Technical specifications",
-                "Technological watch",
-                "Planning",
-                "Kanban board"
-            ],
-            "competencies": [
-                "Utilizing a project management tool to track project progress",
-                "Writing technical specifications based on functional requirements",
-                "Breaking down features into tasks to prepare for development",
-                "Delivering a clear presentation of the technical solution",
-                "Implementing a method for technological watch"
-            ]
-        },
-        {
-            "title": "Improve Care Campaign",
-            "subtitle": "Graphic Design and Marketing",
-            "category": "Design",
-            "image": "improvecare.png",
-            "shortDescription": "Design work for the 'Improve Care' marketing campaign",
-            "detailedDescription": "As part of the global marketing campaign 'Reduce hospitalization. Improve care.', I contributed to the promotion of our portfolio of implantable medical devices. My role involved graphic design work, creating infographics and icons to raise awareness of our clinical results.\n\nFor this campaign, I designed an infographic that showcases the clinical outcomes of our implantable cardiac devices. These posters effectively communicate a wealth of information in a visually engaging manner. By incorporating graphs and icons, I ensured key messages are easily understood. Furthermore, we provided a link to our marketing website where customers can access detailed clinical papers for further information.\n",
-            "technologiesUsed": ["Adobe InDesign"],
-            "keywords": [
-                "Graphic Design",
-                "Marketing",
-                "Infographics",
-                "Visual Communication"
-            ],
-            "competencies": [
-                "Graphic Design",
-                "Marketing Campaign",
-                "Infographic Design",
-                "Icon Design",
-                "Data Visualization"
             ]
         },
         {
@@ -259,7 +236,7 @@
             "subtitle": "Create a dynamic portfolio website using JavaScript",
             "category": "Web Development",
             "image": "architecte.png",
-            "shortDescription": "Created a dynamic portfolio website using JavaScript for an architect portfolio",
+            "shortDescription": "Creation of a dynamic portfolio website using JavaScript for an architect portfolio",
             "detailedDescription": "As a front-end developer, I developed architect Sophie Bluel's portfolio website. The project involved creating different sections of the website, including the presentation page, the admin login page, and a modal for uploading media. I manipulated the DOM with JavaScript to create dynamic and interactive elements, retrieved user data from forms, and handled user events. I followed the provided design from Figma and integrated back-end code to store and manage data. This project showcased my skills in JavaScript, DOM manipulation, and event handling.",
             "technologiesUsed": ["JavaScript", "HTML", "CSS", "Figma"],
             "githubLinkTitle": "Link to project Github repository",
@@ -301,6 +278,29 @@
             "competencies": [
                 "Integrating content according to a design",
                 "Implementing a responsive interface"
+            ]
+        },
+        {
+            "title": "Planning of Menu Maker by Qwenta Project",
+            "subtitle": "Project management, technical specifications, and technological watch",
+            "category": "Web Development",
+            "image": "menumaker.png",
+            "shortDescription": "Planning the development of a menu website for Qwenta",
+            "detailedDescription": "In this project, I planned the development of the Menu Maker application by Qwenta in collaboration with Soufiane, the Product Owner. I conducted technological watch to generate ideas and define the technical specifications of the website. I prepared a clear and convincing presentation of the technical solution, highlighting the visual specifications and the communication plan with Qwenta. I used Jira a project management tool to organize tasks and created a Kanban board to track project progress. I presented my deliverables, including the technical specifications and the planning. I also implemented a method for technological watch to stay updated with the latest advancements in the field.",
+            "technologiesUsed": ["Jira", "PowerPoint"],
+            "keywords": [
+                "Project management",
+                "Technical specifications",
+                "Technological watch",
+                "Planning",
+                "Kanban board"
+            ],
+            "competencies": [
+                "Utilizing a project management tool to track project progress",
+                "Writing technical specifications based on functional requirements",
+                "Breaking down features into tasks to prepare for development",
+                "Delivering a clear presentation of the technical solution",
+                "Implementing a method for technological watch"
             ]
         }
     ],

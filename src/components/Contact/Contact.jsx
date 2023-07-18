@@ -1,11 +1,11 @@
 import React from 'react'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { Button } from '@mui/material'
 import Link from '../Link/Link'
 import Textbox from '../Textbox/Textbox'
 import SocialLinks from '../SocialLinks/SocialLinks'
 
 import './../../sassStyles/components/_contact.sass'
-
 
 const Contact = ({ data, id }) => {
     const {
@@ -54,9 +54,9 @@ const Contact = ({ data, id }) => {
                             />
                         ))}
                     </div>
-                    <button type="submit" className="contact-submit-button">
+                    <Button type="submit" className="contact-submit-button">
                         {formSubmit}
-                    </button>
+                    </Button>
                 </div>
             </div>
             <p className="contact-legal">{legalDisclaimer}</p>
