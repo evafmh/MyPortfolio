@@ -24,6 +24,8 @@ const ProjectCard = ({
     onCloseCard,
     imagePaths,
 }) => {
+    const paragraphs = project.detailedDescription.split('\n\n')
+
     useEffect(() => {
         if (expanded) {
             document.body.classList.add('body-no-scroll')
@@ -83,9 +85,14 @@ const ProjectCard = ({
                                     />
                                 </Grid>
                                 <Grid item xs={12}>
-                                    <p className="project-description expanded">
-                                        {project.detailedDescription}
-                                    </p>
+                                    {paragraphs.map((paragraph, index) => (
+                                        <p
+                                            key={index}
+                                            className="project-description expanded"
+                                        >
+                                            {paragraph}
+                                        </p>
+                                    ))}
                                 </Grid>
                             </Grid>
                         ) : (
