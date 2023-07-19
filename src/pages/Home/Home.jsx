@@ -1,6 +1,7 @@
 import enData from '../../data/en.json'
 import frData from '../../data/fr.json'
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import Navigation from '../../components/Navigation/Navigation'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
@@ -33,7 +34,9 @@ const Home = () => {
     return (
         <main>
             <div id="navigation-container">
-                <Logo initials="EF" firstName="Eva" lastName="Famechon" />
+                <Link to="/">
+                    <Logo initials="EF" firstName="Eva" lastName="Famechon" />
+                </Link>
                 <div className="navigation-container-right">
                     <Navigation
                         aboutText={data.navigation.about}

@@ -19,7 +19,7 @@
         "name": "Eva Famechon",
         "job": "Web Developer",
         "bio": "I'm Eva, a frontend web developer passionate about creating visually stunning and user-friendly web experiences. \n\nAfter an 8-month training at OpenClassrooms, I transitioned from marketing to explore web development. \n\nMy love for all forms of art fuels my creativity and attention to detail.",
-        "cv": "Download resume",
+        "cv": "Download my resume",
         "cvFileName": "resume.pdf"
     },
     "skills": [
@@ -89,10 +89,10 @@
             "githubLink": "https://github.com/evafmh/P7-mon-vieux-grimoire-backend",
             "keywords": [
                 "CRUD",
-                "middleware",
-                "data security",
-                "authentication",
-                "authorization",
+                "Middleware",
+                "Data security",
+                "Authentication",
+                "Authorization",
                 "API integration"
             ],
             "competencies": [
@@ -311,7 +311,7 @@
         "githubLink": "https://github.com/evafmh",
         "linkedinLink": "https://linkedin.com/in/eva-famechon",
         "downloadSubtitle": "Download my resume",
-        "resumeText": "Resume",
+        "resumeText": "My resume",
         "resumeLink": "resume.pdf",
         "formTitle": "Send me a message",
         "formTextboxes": [

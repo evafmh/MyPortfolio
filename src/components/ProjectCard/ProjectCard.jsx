@@ -69,7 +69,11 @@ const ProjectCard = ({
                     >
                         {expanded ? (
                             /* Contenu étendu */
-                            <Grid container spacing={2}>
+                            <Grid
+                                className="project-content-container expanded"
+                                container
+                                spacing={2}
+                            >
                                 <Grid item xs={12}>
                                     <h3 className="project-title expanded">
                                         {project.title}

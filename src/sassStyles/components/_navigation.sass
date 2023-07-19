@@ -8,6 +8,8 @@
 .hamburger-menu 
     display: block
     cursor: pointer
+    &:hover
+        transform: scale(1.12)
 
     &.open
         display: none
@@ -42,25 +44,39 @@
     text-transform: uppercase
     text-decoration: none
 
+    &:hover
+        transform: scale(1.03)
+
 .navigation-links-container
     display: flex
-    gap: 2em
+    gap: 1em
     scroll-behavior: smooth
 
     @media (max-width: 768px) 
         display: none
 
+    .close-icon
+        cursor: pointer
+        &:hover
+            transform: scale(1.12)
+
     &.open 
         flex-direction: column
         padding: 10px 0 10px 0
         align-items: center
+        text-align: center
         display: flex
         position: fixed
         top: 0
         left: 0
         width: 100%
-        background-color: $light-purple-color
+        background-color: $background-purple-color
         z-index: 999
 
         .navigation-link
             color: $granite-color
+            padding: 10px 0 10px 0
+            width: 100%
+            &:hover
+                background-color: $granite-color
+                color: white

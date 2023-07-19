@@ -24,7 +24,7 @@
         "name": "Eva Famechon",
         "job": "Développeuse Web",
         "bio": "Je suis Eva, développeuse web frontend passionnée par la création d'expériences web visuellement impressionnantes et conviviales.\n\n Ancienne chef de produit marketing, j'ai choisi de me consacrer au développement web après une formation de 8 mois chez OpenClassrooms. \n\n Ma créativité et mon souci du détail sont nourris par ma passion pour l'art sous toutes ses formes, de la peinture à la musique.",
-        "cv": "Télécharger le CV",
+        "cv": "Téléchargez mon CV",
         "cvFileName": "CV.pdf"
     },
 
@@ -95,11 +95,11 @@
             "githubLink": "https://github.com/evafmh/P7-mon-vieux-grimoire-backend",
             "keywords": [
                 "CRUD",
-                "middleware",
-                "sécurité des données",
-                "authentification",
-                "autorisation",
-                "intégration d'API"
+                "Middleware",
+                "Sécurité des données",
+                "Authentification",
+                "Autorisation",
+                "Intégration d'API"
             ],
             "competencies": [
                 "Mise en place d'un modèle logique de données",
@@ -319,7 +319,7 @@
         "githubLink": "https://github.com/evafmh",
         "linkedinLink": "https://linkedin.com/in/eva-famechon",
         "downloadSubtitle": "Téléchargez mon CV",
-        "resumeText": "CV",
+        "resumeText": "Mon CV",
         "resumeLink": "CV.pdf",
         "formTitle": "Envoyez moi un message",
         "formTextboxes": [

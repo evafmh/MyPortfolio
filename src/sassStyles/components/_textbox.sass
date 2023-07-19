@@ -13,6 +13,7 @@
     textarea
         width: 100%
         padding: 10px
+        box-sizing: border-box // Inclus le padding et la bordure dans la largeur totale
         background: $light-purple-color
         color: $granite-color
         font-size: 17px
@@ -22,9 +23,8 @@
         border-radius: 5px
         resize: vertical
 
-        @media (max-width: 768px) 
-            width: 90%
-
+        &:hover
+            box-shadow: 0px 1px 14px $light-purple-color
 
     textarea
         min-height: 100px
