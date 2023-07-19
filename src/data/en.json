@@ -30,6 +30,7 @@
             "keywords": [
                 "HTML",
                 "CSS",
+                "Sass",
                 "JavaScript",
                 "React",
                 "Responsive Design",
@@ -38,7 +39,7 @@
         },
         {
             "title": "Back-end Web Development",
-            "description": "I have a solid understanding of backend technologies.",
+            "description": "I have a strong understanding of back-end technologies and use Node.js, RESTful APIs, and authentication mechanisms to develop robust and scalable web applications.",
             "image": "backend.png",
             "keywords": [
                 "Node.js",
@@ -50,15 +51,16 @@
         },
         {
             "title": "Design & UX/UI",
-            "description": "I am passionate about user experience design, creating intuitive and easy-to-use interfaces.",
+            "description": "Passionate about creating and designing user experiences, I bring an artistic touch by crafting intuitive and user-friendly interfaces.",
             "image": "design.png",
             "keywords": [
-                "Wireframing",
-                "Prototyping",
-                "Interaction Design",
                 "UI/UX Design",
                 "User Research",
-                "InDesign"
+                "Wireframing",
+                "Prototyping",
+                "Figma",
+                "Adobe InDesign",
+                "Procreate"
             ]
         }
     ],
@@ -107,7 +109,7 @@
             "category": "Web Development",
             "image": "kasa.png",
             "shortDescription": "Development of the web platform for accomodation booking for the company Kasa",
-            "detailedDescription": "Kasa is a company specialized in apartment rentals between individuals in France. In this project, I was tasked with developing the front-end web application for accomodation booking for Kasa using React technology. My role involved creating and developing React components, setting up routes with React Router, and following the provided mockups. I added a CSS animation to the opening/closing of the Collapse component to enhance the user experience. The project followed Kasa's coding guidelines to ensure code quality.",
+            "detailedDescription": "This project was completed as part of my training at OpenClassrooms as an educational project aimed at developing my frontend development skills with React.\n\n I developed the front-end of the web application for accomodation booking for Kasa using React technology. My role involved creating and developing React components, setting up routes with React Router, and following the provided mockups. The project followed Kasa's coding guidelines to ensure code quality.",
             "technologiesUsed": [
                 "React",
                 "React Router",
@@ -118,18 +120,10 @@
             ],
             "githubLinkTitle": "Link to project Github repository",
             "githubLink": "https://github.com/evafmh/P6-kasa",
-            "keywords": [
-                "React",
-                "CSS",
-                "HTML",
-                "JavaScript",
-                "Mockup",
-                "Front-end Integration"
-            ],
+            "keywords": ["JavaScript", "Mockup", "Front-end Integration"],
             "competencies": [
                 "Configuring navigation between application pages with React Router",
-                "Using React to create interactive components",
-                "Implementing CSS animations to enhance the user experience"
+                "Using React to create interactive components"
             ]
         },
         {
@@ -138,7 +132,7 @@
             "category": "Design",
             "image": "improvecare.png",
             "shortDescription": "Design work for the 'Improve Care' marketing campaign",
-            "detailedDescription": "As part of the global marketing campaign 'Reduce hospitalization. Improve care.', I contributed to the promotion of our portfolio of implantable medical devices. My role involved graphic design work, creating infographics and icons to raise awareness of our clinical results.\n\nFor this campaign, I designed an infographic that showcases the clinical outcomes of our implantable cardiac devices. These posters effectively communicate a wealth of information in a visually engaging manner. By incorporating graphs and icons, I ensured key messages are easily understood. Furthermore, we provided a link to our marketing website where customers can access detailed clinical papers for further information.\n",
+            "detailedDescription": "As part of the global marketing campaign \"Reduce hospitalization. Improve care.\", I contributed to the promotion of our portfolio of implantable medical devices. My role involved graphic design work, creating infographics and icons to raise awareness of our clinical results.\n\nFor this campaign, I designed an infographic that showcases the clinical outcomes of our implantable cardiac devices. These posters effectively communicate a wealth of information in a visually engaging manner. By incorporating graphs and icons, I ensured key messages are easily understood. Furthermore, we provided a link to our marketing website where customers can access detailed clinical papers for further information.\n",
             "technologiesUsed": ["Adobe InDesign"],
             "keywords": [
                 "Graphic Design",
@@ -155,12 +149,34 @@
             ]
         },
         {
+            "title": "Art Workshop Facilitator",
+            "subtitle": "Volunteering to Promote Art among Individuals in Need",
+            "category": "Personal Work",
+            "image": "volunteering.png",
+            "shortDescription": "Volunteer art workshop facilitator to promote art among individuals in need",
+            "detailedDescription": "As a volunteer at Art Explora, I participated in a unique experience of co-creating artworks with other participants throughout the month of October 2022. During this period, I acted as both a facilitator and a creator, fostering connections between associations, schools, and artists from around the world.\n\n During the pre-opening weekend of Hangar Y in Meudon, France, which attracted over 10,000 visitors, I had the opportunity to share my experience with the public, explaining and discussing about the workshops. It was a fantastic opportunity to engage with the community and promote access to art and culture for all.",
+            "technologiesUsed": [],
+            "keywords": [
+                "Volunteering",
+                "Art Workshops",
+                "Art Promotion",
+                "Social Engagement",
+                "Culture"
+            ],
+            "competencies": [
+                "Art Workshop Facilitation",
+                "Art and Culture Promotion",
+                "Creating Connections",
+                "Social Engagement"
+            ]
+        },
+        {
             "title": "Debugging and Optimization of a Photographer's Website",
             "subtitle": "SEO Optimization and Technical Issue Resolution",
             "category": "Web Development",
             "image": "nina.jpg",
             "shortDescription": "Optimization and debugging of a professional photographer's website",
-            "detailedDescription": "In this project, I optimized the website of a professional photographer, Nina Carducci, by improving its performance and search engine optimization. I analyzed the site, reduced loading time, and fixed accessibility errors. I optimized the images without compromising their quality, improved the code, and added meta tags and Schema.org for local search engine optimization. I resolved specific issues such as faulty navigation in the gallery and incorrect filter display. I used Chrome DevTools to debug the site and prepared a detailed intervention report with performance metrics before and after optimization.",
+            "detailedDescription": "This project was completed as part of my training at OpenClassrooms as an educational project aimed at developing my skills in SEO. \n\n In this project, I optimized the website of a professional photographer by improving its performance and search engine optimization. I analyzed the site, reduced loading time, and fixed accessibility errors. I optimized the images without compromising their quality, improved the code, and added meta tags and Schema.org for local search engine optimization. \n\n I resolved specific issues such as faulty navigation in the gallery and incorrect filter display. I used Chrome DevTools to debug the site and prepared a detailed intervention report with performance metrics before and after optimization.",
             "technologiesUsed": [
                 "Chrome DevTools",
                 "HTML",
@@ -187,34 +203,12 @@
             ]
         },
         {
-            "title": "Art Workshop Facilitator",
-            "subtitle": "Volunteering to Promote Art among Individuals in Need",
-            "category": "Personal Work",
-            "image": "volunteering.png",
-            "shortDescription": "Volunteer art workshop facilitator to promote art among individuals in need",
-            "detailedDescription": "As a volunteer at Art Explora, I participated in a unique experience of co-creating artworks with other participants throughout the month of October 2022. During this period, I acted as both a facilitator and a creator, fostering connections between associations, schools, and artists. At the pre-opening weekend of Hangar Y in Meudon, France, which welcomed over 10,000 attendees, I had the opportunity to share my experience with the public by explaining and discussing the workshops. It was a fantastic opportunity to engage with the community and promote access to art and culture for all.",
-            "technologiesUsed": [],
-            "keywords": [
-                "Volunteering",
-                "Art Workshops",
-                "Art Promotion",
-                "Social Engagement",
-                "Culture"
-            ],
-            "competencies": [
-                "Art Workshop Facilitation",
-                "Art and Culture Promotion",
-                "Creating Connections",
-                "Social Engagement"
-            ]
-        },
-        {
             "title": "Painting & Drawing",
             "subtitle": "My paintings and drawings projects",
             "category": "Personal Work",
             "image": "painting.png",
             "shortDescription": "Selection of paintings and drawings capturing my perception of the world",
-            "detailedDescription": "During the first COVID-19 lockdown in 2020, I rediscovered the joys of painting and drawing, and I haven't stopped since. Through my art, I love to explore the beauty of the world around us and to express my own unique vision.\n\nOn this page, you'll find a selection of my pieces, including an oil pastel drawing, a ceramic painting, and some paintings that capture the beauty of nature. I've also included detailed pencil sketches of iconic Parisian buildings like the Saint Sulpice church and the Cortot concert hall. And for a touch of whimsy, don't miss my cute digital drawing of chatty pumpkins. Take a scroll through and enjoy!",
+            "detailedDescription": "During the first COVID-19 lockdown in 2020, I rediscovered the joys of painting and drawing, and I haven't stopped since. My creativity allows me to explore the beauty of the world and bring my personal vision to life.\n\nYou can find a selection of my creations, including an oil pastel drawing, a ceramic painting, and some paintings that capture the beauty of nature. I have also included pencil sketches of iconic Parisian buildings such as the Saint-Sulpice church and the Cortot concert hall. And for a bit of fun, don't miss my cute drawing of chatty pumpkins.",
             "technologiesUsed": ["Adobe Photoshop", "Procreate"],
             "keywords": [
                 "Painting",
@@ -237,14 +231,12 @@
             "category": "Web Development",
             "image": "architecte.png",
             "shortDescription": "Creation of a dynamic portfolio website using JavaScript for an architect portfolio",
-            "detailedDescription": "As a front-end developer, I developed architect Sophie Bluel's portfolio website. The project involved creating different sections of the website, including the presentation page, the admin login page, and a modal for uploading media. I manipulated the DOM with JavaScript to create dynamic and interactive elements, retrieved user data from forms, and handled user events. I followed the provided design from Figma and integrated back-end code to store and manage data. This project showcased my skills in JavaScript, DOM manipulation, and event handling.",
+            "detailedDescription": "This project was completed as part of my training at OpenClassrooms as an educational project aimed at developing my front-end development skills with JavaScript.\n\nI created the portfolio website for an architect. The project involved building different sections of the website, including the homepage, the admin login page, and a modal for media downloads.\n\nI manipulated the DOM with JavaScript to create dynamic and interactive elements, retrieved user data from forms, and handled user events. I followed the provided design from Figma and integrated backend code to store and manage data.",
             "technologiesUsed": ["JavaScript", "HTML", "CSS", "Figma"],
             "githubLinkTitle": "Link to project Github repository",
             "githubLink": "https://github.com/evafmh/Portfolio-sophie-bluel-frontend",
             "keywords": [
                 "JavaScript",
-                "HTML",
-                "CSS",
                 "Front-end Development",
                 "DOM Manipulation",
                 "Event Handling"
@@ -259,24 +251,22 @@
             "title": "Transform a design into a website with HTML & CSS",
             "subtitle": "Create a website by integrating a design using HTML and CSS",
             "category": "Web Development",
-            "image": "booki-activity1.jpeg",
+            "image": "booki.png",
             "shortDescription": "Development of the Booki website interface that allows users to find accommodations and activities in the city of their choice.",
-            "detailedDescription": "I integrated the website interface using HTML and CSS. I received the design mockups and images and I created the HTML structure and applied the necessary CSS styles to match the design. I ensured the website was responsive and followed the provided breakpoints for different devices. Throughout the project, I adhered to coding best practices, used semantic HTML tags, and validated the code with W3C HTML and CSS validators. The website is compatible with the latest versions of Google Chrome and Mozilla Firefox. This project showcased my skills in HTML, CSS, responsive design, and attention to detail.",
+            "detailedDescription": "This project was completed as part of my training at OpenClassrooms as an educational project aimed at developing my front-end development skills with HTML and CSS.\n\nI integrated the website's interface based on the provided mockups and images. I ensured that the website is responsive and follows the provided breakpoints for different devices.\n\nThroughout the project, I followed coding best practices, used semantic HTML tags, and validated the code with W3C's HTML and CSS validators. The website is compatible with the latest versions of Google Chrome and Mozilla Firefox.",
             "technologiesUsed": ["HTML", "CSS", "Figma"],
             "githubLinkTitle": "Link to project Github repository",
             "githubLink": "https://github.com/evafmh/P2-Booki",
             "websiteLinkTitle": "Link to project website",
             "websiteLink": "https://evafmh.github.io/P2-Booki/",
             "keywords": [
-                "HTML",
-                "CSS",
                 "Web Design Integration",
                 "Responsive Design",
                 "Semantic HTML",
                 "W3C Validation"
             ],
             "competencies": [
-                "Integrating content according to a design",
+                "Integrating content according to a mockup",
                 "Implementing a responsive interface"
             ]
         },
@@ -286,7 +276,7 @@
             "category": "Web Development",
             "image": "menumaker.png",
             "shortDescription": "Planning the development of a menu website for Qwenta",
-            "detailedDescription": "In this project, I planned the development of the Menu Maker application by Qwenta in collaboration with Soufiane, the Product Owner. I conducted technological watch to generate ideas and define the technical specifications of the website. I prepared a clear and convincing presentation of the technical solution, highlighting the visual specifications and the communication plan with Qwenta. I used Jira a project management tool to organize tasks and created a Kanban board to track project progress. I presented my deliverables, including the technical specifications and the planning. I also implemented a method for technological watch to stay updated with the latest advancements in the field.",
+            "detailedDescription": "This project was completed as part of my training at OpenClassrooms as an educational project aimed at developing my project management skills.\n\nIn this project, I conducted technological research to generate ideas and define the technical specifications for the MenuMaker website by Qwenta. Employing the agile approach, I managed the planning through iterative sprints, organizing tasks using the Jira project management tool, and tracking the project's progress with a Kanban board.\n\nI also presented all these documents, including the technical specifications, planning, and the communication plan with Qwenta.",
             "technologiesUsed": ["Jira", "PowerPoint"],
             "keywords": [
                 "Project management",
