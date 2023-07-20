@@ -31,10 +31,10 @@ const Contact = ({ data, id }) => {
         <section className="contact-container" id={id}>
             <div className="contact-main">
                 <div className="contact-info">
-                    <h1 className="contact-title">{title}</h1>
-                    <h2 className="contact-subtitle">{linksSubtitle}</h2>
+                    <h2 className="contact-title">{title}</h2>
+                    <h3 className="contact-subtitle">{linksSubtitle}</h3>
                     <SocialLinks Links={socialLinksData} />
-                    <h2 className="contact-subtitle">{downloadSubtitle}</h2>
+                    <h3 className="contact-subtitle">{downloadSubtitle}</h3>
                     <Link
                         href={resumeLink}
                         download={resumeText}
@@ -44,7 +44,7 @@ const Contact = ({ data, id }) => {
                     </Link>
                 </div>
                 <div className="contact-form">
-                    <h2 className="contact-form-title">{formTitle}</h2>
+                    <h3 className="contact-form-title">{formTitle}</h3>
                     <div className="text-fields-container">
                         {formTextboxes.map((textbox, index) => (
                             <Textbox

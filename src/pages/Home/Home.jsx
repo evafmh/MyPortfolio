@@ -1,6 +1,6 @@
 import enData from '../../data/en.json'
 import frData from '../../data/fr.json'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Navigation from '../../components/Navigation/Navigation'
 import Header from '../../components/Header/Header'
@@ -28,6 +28,11 @@ const Home = () => {
     const toggleLanguage = () => {
         setLanguage((prevLanguage) => (prevLanguage === 'fr' ? 'en' : 'fr'))
     }
+
+    // Set the 'lang' attribute of the 'html' tag based on the selected language
+    useEffect(() => {
+        document.documentElement.lang = language
+    }, [language])
 
     const currentFlag = flagMap[data.language.abbreviation]
 

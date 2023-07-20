@@ -7,7 +7,12 @@ const SocialLinks = ({ Links }) => {
     return (
         <div className="social-links">
             {Links.map((linkData, index) => (
-                <a href={linkData.link} key={index} className="social-link">
+                <a
+                    href={linkData.link}
+                    key={index}
+                    aria-label={`Visit ${linkData.link}`}
+                    className="social-link"
+                >
                     <FontAwesomeIcon
                         icon={linkData.icon}
                         className="social-icon"

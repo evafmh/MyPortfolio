@@ -17,7 +17,11 @@ const Skill = ({ image, title, description, keywords }) => {
 
     return (
         <div className="skill">
-            <img src={imagePath} alt={title} className="skill-image" />
+            <img
+                src={imagePath}
+                alt={`${title} illustration`}
+                className="skill-image"
+            />
             <h3 className="skill-title">{title}</h3>
             <p className="skill-description">{description}</p>
             <div className="skill-keywords">

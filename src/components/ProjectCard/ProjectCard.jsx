@@ -60,7 +60,7 @@ const ProjectCard = ({
                         className="project-image"
                         component="img"
                         src={imagePaths[project.title] || ''}
-                        alt={project.title}
+                        alt={`${project.title} illustration`}
                     />
                     <CardContent
                         className={`project-main-content${
