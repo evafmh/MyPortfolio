@@ -117,9 +117,15 @@ const ProjectCard = ({
                                     />
                                 </Grid>
                                 <Grid item xs={12}>
-                                    <p className="project-description">
-                                        {project.shortDescription}
-                                    </p>
+                                    <ul className="project-description">
+                                        {project.competencies.map(
+                                            (competency, index) => (
+                                                <li key={index}>
+                                                    {competency}
+                                                </li>
+                                            )
+                                        )}{' '}
+                                    </ul>
                                 </Grid>
                             </Grid>
                         )}

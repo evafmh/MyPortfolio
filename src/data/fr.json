@@ -80,7 +80,7 @@
     "projects": [
         {
             "title": "Mon Vieux Grimoire",
-            "subtitle": "Backend d'un site de notation de livres",
+            "subtitle": "Développement back-end d'un site de notation de livres",
             "category": "Développement Web",
             "image": "grimoire.jpg",
             "shortDescription": "Développement du backend d'un site de notation de livres pour une chaîne de librairies",
@@ -111,7 +111,7 @@
         },
         {
             "title": "Kasa - Application web de location immobilière",
-            "subtitle": "Front-end avec React d'une plateforme de location",
+            "subtitle": "Développement front-end avec React d'une plateforme de location",
             "category": "Développement Web",
             "image": "kasa.png",
             "shortDescription": "Développement de la plateforme web de location immobilière pour l'entreprise Kasa",
@@ -134,7 +134,7 @@
         },
         {
             "title": "Campagne \"Improve care\"",
-            "subtitle": "Design graphique et Marketing",
+            "subtitle": "Travail de design pour la campagne marketing \"Improve care\"",
             "category": "Design",
             "image": "improvecare.png",
             "shortDescription": "Travail de design pour la campagne marketing \"Improve care\"",
@@ -144,16 +144,13 @@
             "websiteLink": "https://microport.com/healthcare-professional/cardiac-rhythm-management-home-page/cardiac-rhythm-management/safer",
             "keywords": [
                 "Design Graphique",
-                "Marketing",
+                "Campagne Marketing",
                 "Infographies",
-                "Communication Visuelle"
+                "Visualisation de Données"
             ],
             "competencies": [
-                "Design Graphique",
-                "Campagne Marketing",
-                "Conception d'Infographies",
-                "Conception d'Icônes",
-                "Visualisation de Données"
+                "Création d'infographies pour mettre en évidence des résultats cliniques",
+                "Réalisation de travaux graphiques pour la campagne \"Improve Care\""
             ]
         },
         {
@@ -163,7 +160,7 @@
             "image": "volunteering.png",
             "shortDescription": "Facilitatrice d'ateliers d'art bénévole pour promouvoir l'art auprès des personnes en difficultés",
             "detailedDescription": "En tant que bénévole chez Art Explora, j'ai participé à une expérience unique de co-création d'œuvres d'art avec d'autres participants tout au long du mois d'octobre 2022. J'ai joué un double rôle en tant que facilitateur et créateur, en établissant des liens entre les associations, les écoles et les artistes venus du monde entier. \n\n Lors du week-end de préouverture de Hangar Y à Meudon, en France, qui a attiré plus de 10 000 visiteurs, j'ai eu l'opportunité de partager mon expérience avec le public, en expliquant et en échangeant sur les ateliers. J'ai pu m'engager avec la communauté et promouvoir l'accès à l'art et à la culture pour tous.",
-            "technologiesUsed": [],
+            "technologiesUsed": ["PowerPoint"],
             "websiteLinkTitle": "Cliquez pour en savoir plus",
             "websiteLink": "https://evafamechon.myportfolio.com/volunteering",
             "keywords": [
@@ -174,15 +171,15 @@
                 "Culture"
             ],
             "competencies": [
-                "Animation d'Ateliers d'Art",
-                "Promotion de l'Art et de la Culture",
-                "Création de Connexions",
-                "Engagement Social"
+                "Animation d'ateliers d'art",
+                "Promotion de l'art et de la culture",
+                "Création de connexions",
+                "Engagement social"
             ]
         },
         {
             "title": "Débogage et optimisation d'un site de photographe",
-            "subtitle": "Optimisation SEO et résolution des problèmes techniques",
+            "subtitle": "Optimisation SEO  et débogage d'un site web",
             "category": "Développement Web",
             "image": "nina.jpg",
             "shortDescription": "Optimisation et débogage d'un site web pour une photographe professionnelle",
@@ -209,6 +206,7 @@
             "competencies": [
                 "Optimisation des performances d'un site web",
                 "Débogage d'un site web avec les Chrome DevTools",
+                "Amélioration du référencement local d'un site pour une meilleure visibilité",
                 "Rédaction d'un rapport d'intervention pour tester un site"
             ]
         },
@@ -227,14 +225,13 @@
                 "Dessin",
                 "Art",
                 "Croquis",
-                "Art Numérique"
+                "Art Numérique",
+                "Créativité"
             ],
             "competencies": [
-                "Peinture",
-                "Dessin",
-                "Expression Artistique",
-                "Observation",
-                "Créativité"
+                "Réalisation d'esquisses de célèbres bâtiments parisiens",
+                "Pratique de la peinture et du dessin",
+                "Utilisation d'outils numériques tels qu'Adobe Photoshop et Procreate pour créer des œuvres numériques"
             ]
         },
         {
@@ -299,11 +296,9 @@
                 "Tableau Kanban"
             ],
             "competencies": [
-                "Utilisation d'un outil de gestion de projet pour suivre le déroulement du projet",
+                "Utilisation d'un outil de gestion de projet",
                 "Rédaction de spécifications techniques à partir des besoins fonctionnels",
-                "Décomposition des fonctionnalités en tâches pour préparer le développement",
-                "Présentation claire de la solution technique",
-                "Mise en place d'une méthode de veille technologique"
+                "Décomposition des fonctionnalités en tâches pour préparer le développement"
             ]
         }
     ],

@@ -74,7 +74,7 @@
     "projects": [
         {
             "title": "Mon Vieux Grimoire",
-            "subtitle": "Backend for Book Rating Website",
+            "subtitle": "Backend development for a book rating website",
             "category": "Web Development",
             "image": "grimoire.jpg",
             "shortDescription": "Development of the backend for a book rating website for a local bookstore chain",
@@ -128,36 +128,33 @@
         },
         {
             "title": "Improve Care Campaign",
-            "subtitle": "Graphic Design and Marketing",
+            "subtitle": "Design work for the 'Improve Care' marketing campaign",
             "category": "Design",
             "image": "improvecare.png",
-            "shortDescription": "Design work for the 'Improve Care' marketing campaign",
+            "shortDescription": "Design work for the \"Improve Care\" marketing campaign",
             "detailedDescription": "As part of the global marketing campaign \"Reduce hospitalization. Improve care.\", I contributed to the promotion of our portfolio of implantable medical devices. My role involved graphic design work, creating infographics and icons to raise awareness of our clinical results.\n\nFor this campaign, I designed an infographic that showcases the clinical outcomes of our implantable cardiac devices. These posters effectively communicate a wealth of information in a visually engaging manner. By incorporating graphs and icons, I ensured key messages are easily understood. Furthermore, we provided a link to our marketing website where customers can access detailed clinical papers for further information.\n",
             "technologiesUsed": ["Adobe InDesign"],
             "websiteLinkTitle": "Click to access the website",
             "websiteLink": "https://microport.com/healthcare-professional/cardiac-rhythm-management-home-page/cardiac-rhythm-management/safer",
             "keywords": [
                 "Graphic Design",
-                "Marketing",
+                "Marketing Campaign",
                 "Infographics",
-                "Visual Communication"
+                "Data Visualization"
             ],
             "competencies": [
-                "Graphic Design",
-                "Marketing Campaign",
-                "Infographic Design",
-                "Icon Design",
-                "Data Visualization"
+                "Created infographics to highlight clinical results.",
+                "Executed graphic design work for the \"Improve Care\" campaign"
             ]
         },
         {
             "title": "Art Workshop Facilitator",
-            "subtitle": "Volunteering to Promote Art among Individuals in Need",
+            "subtitle": "Volunteering to promote art among individuals in need",
             "category": "Personal Work",
             "image": "volunteering.png",
             "shortDescription": "Volunteer art workshop facilitator to promote art among individuals in need",
             "detailedDescription": "As a volunteer at Art Explora, I participated in a unique experience of co-creating artworks with other participants throughout the month of October 2022. During this period, I acted as both a facilitator and a creator, fostering connections between associations, schools, and artists from around the world.\n\n During the pre-opening weekend of Hangar Y in Meudon, France, which attracted over 10,000 visitors, I had the opportunity to share my experience with the public, explaining and discussing about the workshops. It was a fantastic opportunity to engage with the community and promote access to art and culture for all.",
-            "technologiesUsed": [],
+            "technologiesUsed": ["PowerPoint"],
             "websiteLinkTitle": "Click to know more",
             "websiteLink": "https://evafamechon.myportfolio.com/volunteering",
             "keywords": [
@@ -168,15 +165,15 @@
                 "Culture"
             ],
             "competencies": [
-                "Art Workshop Facilitation",
-                "Art and Culture Promotion",
-                "Creating Connections",
-                "Social Engagement"
+                "Facilitated art workshops",
+                "Promoted art and culture",
+                "Created connections",
+                "Social engagement"
             ]
         },
         {
             "title": "Debugging and Optimization of a Photographer's Website",
-            "subtitle": "SEO Optimization and Technical Issue Resolution",
+            "subtitle": "SEO optimization and debugging",
             "category": "Web Development",
             "image": "nina.jpg",
             "shortDescription": "Optimization and debugging of a professional photographer's website",
@@ -203,6 +200,7 @@
             "competencies": [
                 "Optimizing website performance",
                 "Debugging a website using Chrome DevTools",
+                "Improving local SEO for better visibility",
                 "Writing an intervention report to test a website"
             ]
         },
@@ -221,14 +219,13 @@
                 "Drawing",
                 "Art",
                 "Sketching",
-                "Digital Art"
+                "Digital Art",
+                "Creativity"
             ],
             "competencies": [
-                "Painting",
-                "Drawing",
-                "Artistic Expression",
-                "Observational Skills",
-                "Creativity"
+                "Created sketches of iconic Parisian buildings",
+                "Practiced painting and drawing",
+                "Used digital tools like Adobe Photoshop and Procreate to create digital artworks"
             ]
         },
         {
@@ -292,11 +289,9 @@
                 "Kanban board"
             ],
             "competencies": [
-                "Utilizing a project management tool to track project progress",
+                "Utilizing a project management tool",
                 "Writing technical specifications based on functional requirements",
-                "Breaking down features into tasks to prepare for development",
-                "Delivering a clear presentation of the technical solution",
-                "Implementing a method for technological watch"
+                "Breaking down features into tasks to prepare for development"
             ]
         }
     ],
