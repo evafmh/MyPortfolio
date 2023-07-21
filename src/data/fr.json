@@ -32,7 +32,7 @@
         {
             "title": "Développement Web Front-end",
             "description": "Je suis spécialisée dans le développement front-end, créant des interfaces utilisateur interactives et conviviales.",
-            "image": "frontend.png",
+            "image": "frontend.jpeg",
             "keywords": [
                 "HTML",
                 "CSS",
@@ -46,7 +46,7 @@
         {
             "title": "Développement Web Back-end",
             "description": "J'ai une solide compréhension des technologies back-end et j'utilise Node.js, des RESTful APIs et des mécanismes d'authentification pour développer des applications web robustes et évolutives.",
-            "image": "backend.png",
+            "image": "backend.webp",
             "keywords": [
                 "Node.js",
                 "Express.js",
@@ -58,7 +58,7 @@
         {
             "title": "Design & UI/UX",
             "description": "Passionnée par la création et la conception d'expérience utilisateur, j'apporte une touche artistique en concevant des interfaces intuitives et faciles à utiliser.",
-            "image": "design.png",
+            "image": "design.jpg",
             "keywords": [
                 "UI/UX Design",
                 "User Research",
@@ -275,8 +275,8 @@
                 "Validation W3C"
             ],
             "competencies": [
-                "Intégrer du contenu conformément à une maquette",
-                "Implémenter une interface responsive"
+                "Intégration du contenu conformément à une maquette",
+                "Implémentation d'une interface responsive"
             ]
         },
 

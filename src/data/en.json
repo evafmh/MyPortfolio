@@ -26,7 +26,7 @@
         {
             "title": "Front-end Web Development",
             "description": "I specialize in front-end development, creating interactive and user-friendly user interfaces.",
-            "image": "frontend.png",
+            "image": "frontend.jpeg",
             "keywords": [
                 "HTML",
                 "CSS",
@@ -40,7 +40,7 @@
         {
             "title": "Back-end Web Development",
             "description": "I have a strong understanding of back-end technologies and use Node.js, RESTful APIs, and authentication mechanisms to develop robust and scalable web applications.",
-            "image": "backend.png",
+            "image": "backend.webp",
             "keywords": [
                 "Node.js",
                 "Express.js",
@@ -52,7 +52,7 @@
         {
             "title": "Design & UX/UI",
             "description": "Passionate about creating and designing user experiences, I bring an artistic touch by crafting intuitive and user-friendly interfaces.",
-            "image": "design.png",
+            "image": "design.jpg",
             "keywords": [
                 "UI/UX Design",
                 "User Research",
