@@ -20,7 +20,7 @@
         "job": "Web Developer",
         "bio": "I'm Eva, a frontend web developer passionate about creating visually stunning and user-friendly web experiences. \n\nAfter an 8-month training at OpenClassrooms, I transitioned from marketing to explore web development. \n\nMy love for all forms of art fuels my creativity and attention to detail.",
         "cv": "Download my resume",
-        "cvFileName": "resume.pdf"
+        "cvFileName": "Resume-Eva-Famechon.pdf"
     },
     "skills": [
         {
@@ -87,7 +87,7 @@
                 "JWT",
                 "Bcrypt"
             ],
-            "githubLinkTitle": "Link to project Github repository",
+            "githubLinkTitle": "Click to access the project Github repository",
             "githubLink": "https://github.com/evafmh/P7-mon-vieux-grimoire-backend",
             "keywords": [
                 "CRUD",
@@ -118,7 +118,7 @@
                 "JavaScript",
                 "Figma"
             ],
-            "githubLinkTitle": "Link to project Github repository",
+            "githubLinkTitle": "Click to access the project Github repository",
             "githubLink": "https://github.com/evafmh/P6-kasa",
             "keywords": ["JavaScript", "Mockup", "Front-end Integration"],
             "competencies": [
@@ -134,6 +134,8 @@
             "shortDescription": "Design work for the 'Improve Care' marketing campaign",
             "detailedDescription": "As part of the global marketing campaign \"Reduce hospitalization. Improve care.\", I contributed to the promotion of our portfolio of implantable medical devices. My role involved graphic design work, creating infographics and icons to raise awareness of our clinical results.\n\nFor this campaign, I designed an infographic that showcases the clinical outcomes of our implantable cardiac devices. These posters effectively communicate a wealth of information in a visually engaging manner. By incorporating graphs and icons, I ensured key messages are easily understood. Furthermore, we provided a link to our marketing website where customers can access detailed clinical papers for further information.\n",
             "technologiesUsed": ["Adobe InDesign"],
+            "websiteLinkTitle": "Click to access the website",
+            "websiteLink": "https://microport.com/healthcare-professional/cardiac-rhythm-management-home-page/cardiac-rhythm-management/safer",
             "keywords": [
                 "Graphic Design",
                 "Marketing",
@@ -156,6 +158,8 @@
             "shortDescription": "Volunteer art workshop facilitator to promote art among individuals in need",
             "detailedDescription": "As a volunteer at Art Explora, I participated in a unique experience of co-creating artworks with other participants throughout the month of October 2022. During this period, I acted as both a facilitator and a creator, fostering connections between associations, schools, and artists from around the world.\n\n During the pre-opening weekend of Hangar Y in Meudon, France, which attracted over 10,000 visitors, I had the opportunity to share my experience with the public, explaining and discussing about the workshops. It was a fantastic opportunity to engage with the community and promote access to art and culture for all.",
             "technologiesUsed": [],
+            "websiteLinkTitle": "Click to know more",
+            "websiteLink": "https://evafamechon.myportfolio.com/volunteering",
             "keywords": [
                 "Volunteering",
                 "Art Workshops",
@@ -183,9 +187,9 @@
                 "CSS",
                 "JavaScript"
             ],
-            "githubLinkTitle": "Link to project Github repository",
+            "githubLinkTitle": "Click to access the project Github repository",
             "githubLink": "https://github.com/evafmh/P5_nina_carducci",
-            "websiteLinkTitle": "Link to project website",
+            "websiteLinkTitle": "Click to access the project website",
             "websiteLink": "https://evafmh.github.io/P5_nina_carducci/",
             "keywords": [
                 "Performance Optimization",
@@ -210,6 +214,8 @@
             "shortDescription": "Selection of paintings and drawings capturing my perception of the world",
             "detailedDescription": "During the first COVID-19 lockdown in 2020, I rediscovered the joys of painting and drawing, and I haven't stopped since. My creativity allows me to explore the beauty of the world and bring my personal vision to life.\n\nYou can find a selection of my creations, including an oil pastel drawing, a ceramic painting, and some paintings that capture the beauty of nature. I have also included pencil sketches of iconic Parisian buildings such as the Saint-Sulpice church and the Cortot concert hall. And for a bit of fun, don't miss my cute drawing of chatty pumpkins.",
             "technologiesUsed": ["Adobe Photoshop", "Procreate"],
+            "websiteLinkTitle": "Click to see more",
+            "websiteLink": "https://evafamechon.myportfolio.com/painting-drawing",
             "keywords": [
                 "Painting",
                 "Drawing",
@@ -230,10 +236,10 @@
             "subtitle": "Create a dynamic portfolio website using JavaScript",
             "category": "Web Development",
             "image": "architecte.png",
-            "shortDescription": "Creation of a dynamic portfolio website using JavaScript for an architect portfolio",
+            "shortDescription": "Creation of a dynamic website using JavaScript and DOM manipulation",
             "detailedDescription": "This project was completed as part of my training at OpenClassrooms as an educational project aimed at developing my front-end development skills with JavaScript.\n\nI created the portfolio website for an architect. The project involved building different sections of the website, including the homepage, the admin login page, and a modal for media downloads.\n\nI manipulated the DOM with JavaScript to create dynamic and interactive elements, retrieved user data from forms, and handled user events. I followed the provided design from Figma and integrated backend code to store and manage data.",
             "technologiesUsed": ["JavaScript", "HTML", "CSS", "Figma"],
-            "githubLinkTitle": "Link to project Github repository",
+            "githubLinkTitle": "Click to access the project Github repository",
             "githubLink": "https://github.com/evafmh/Portfolio-sophie-bluel-frontend",
             "keywords": [
                 "JavaScript",
@@ -255,9 +261,9 @@
             "shortDescription": "Development of the Booki website interface that allows users to find accommodations and activities in the city of their choice.",
             "detailedDescription": "This project was completed as part of my training at OpenClassrooms as an educational project aimed at developing my front-end development skills with HTML and CSS.\n\nI integrated the website's interface based on the provided mockups and images. I ensured that the website is responsive and follows the provided breakpoints for different devices.\n\nThroughout the project, I followed coding best practices, used semantic HTML tags, and validated the code with W3C's HTML and CSS validators. The website is compatible with the latest versions of Google Chrome and Mozilla Firefox.",
             "technologiesUsed": ["HTML", "CSS", "Figma"],
-            "githubLinkTitle": "Link to project Github repository",
+            "githubLinkTitle": "Click to access the project Github repository",
             "githubLink": "https://github.com/evafmh/P2-Booki",
-            "websiteLinkTitle": "Link to project website",
+            "websiteLinkTitle": "Click to access the project website",
             "websiteLink": "https://evafmh.github.io/P2-Booki/",
             "keywords": [
                 "Web Design Integration",
@@ -302,7 +308,7 @@
         "linkedinLink": "https://linkedin.com/in/eva-famechon",
         "downloadSubtitle": "Download my resume",
         "resumeText": "My resume",
-        "resumeLink": "resume.pdf",
+        "resumeLink": "Resume-Eva-Famechon.pdf",
         "formTitle": "Send me a message",
         "formTextboxes": [
             { "label": "Name", "type": "input" },

@@ -23,9 +23,9 @@
     "about": {
         "name": "Eva Famechon",
         "job": "Développeuse Web",
-        "bio": "Je suis Eva, développeuse web frontend passionnée par la création d'expériences web visuellement impressionnantes et conviviales.\n\n Ancienne chef de produit marketing, j'ai choisi de me consacrer au développement web après une formation de 8 mois chez OpenClassrooms. \n\n Ma créativité et mon souci du détail sont nourris par ma passion pour l'art sous toutes ses formes, de la peinture à la musique.",
+        "bio": "Je suis Eva, développeuse web frontend passionnée par la création d'expériences web convaincantes et conviviales.\n\n Ancienne chef de produit marketing, j'ai choisi de me consacrer au développement web après une formation de 8 mois chez OpenClassrooms. \n\n Ma créativité et mon souci du détail sont nourris par ma passion pour l'art sous toutes ses formes, de la peinture à la musique.",
         "cv": "Téléchargez mon CV",
-        "cvFileName": "CV.pdf"
+        "cvFileName": "CV-Eva-Famechon.pdf"
     },
 
     "skills": [
@@ -93,7 +93,7 @@
                 "JWT",
                 "Bcrypt"
             ],
-            "githubLinkTitle": "Lien vers le repo Github du projet",
+            "githubLinkTitle": "Cliquez pour accéder au repo Github du projet",
             "githubLink": "https://github.com/evafmh/P7-mon-vieux-grimoire-backend",
             "keywords": [
                 "CRUD",
@@ -124,7 +124,7 @@
                 "JavaScript",
                 "Figma"
             ],
-            "githubLinkTitle": "Lien vers le repo Github du projet",
+            "githubLinkTitle": "Cliquez pour accéder au repo Github du projet",
             "githubLink": "https://github.com/evafmh/P6-kasa",
             "keywords": ["JavaScript", "Maquette", "Intégration front-end"],
             "competencies": [
@@ -140,6 +140,8 @@
             "shortDescription": "Travail de design pour la campagne marketing \"Improve care\"",
             "detailedDescription": "Dans le cadre de la campagne mondiale de marketing \"Réduire les hospitalisations. Améliorer les soins.\", j'ai contribué à la promotion de notre portefeuille de dispositifs médicaux implantables. Mon rôle a impliqué un travail de design graphique, créant des infographies et des icônes pour sensibiliser aux résultats cliniques.\n\nPour cette campagne, j'ai conçu une infographie mettant en évidence les résultats cliniques de nos dispositifs cardiaques implantables. Ces affiches communiquent efficacement une grande quantité d'informations de manière visuellement attrayante. En incorporant des graphiques et des icônes, j'ai veillé à ce que les messages clés soient facilement compréhensibles. De plus, nous avons fourni un lien vers notre site web de marketing où les clients peuvent accéder à des articles cliniques détaillés pour plus d'informations.\n",
             "technologiesUsed": ["Adobe InDesign"],
+            "websiteLinkTitle": "Cliquez pour accéder au site web",
+            "websiteLink": "https://microport.com/healthcare-professional/cardiac-rhythm-management-home-page/cardiac-rhythm-management/safer",
             "keywords": [
                 "Design Graphique",
                 "Marketing",
@@ -162,6 +164,8 @@
             "shortDescription": "Facilitatrice d'ateliers d'art bénévole pour promouvoir l'art auprès des personnes en difficultés",
             "detailedDescription": "En tant que bénévole chez Art Explora, j'ai participé à une expérience unique de co-création d'œuvres d'art avec d'autres participants tout au long du mois d'octobre 2022. J'ai joué un double rôle en tant que facilitateur et créateur, en établissant des liens entre les associations, les écoles et les artistes venus du monde entier. \n\n Lors du week-end de préouverture de Hangar Y à Meudon, en France, qui a attiré plus de 10 000 visiteurs, j'ai eu l'opportunité de partager mon expérience avec le public, en expliquant et en échangeant sur les ateliers. J'ai pu m'engager avec la communauté et promouvoir l'accès à l'art et à la culture pour tous.",
             "technologiesUsed": [],
+            "websiteLinkTitle": "Cliquez pour en savoir plus",
+            "websiteLink": "https://evafamechon.myportfolio.com/volunteering",
             "keywords": [
                 "Bénévolat",
                 "Ateliers d'Art",
@@ -189,9 +193,9 @@
                 "CSS",
                 "JavaScript"
             ],
-            "githubLinkTitle": "Lien vers le repo Github du projet",
+            "githubLinkTitle": "Cliquez pour accéder au repo Github du projet",
             "githubLink": "https://github.com/evafmh/P5_nina_carducci",
-            "websiteLinkTitle": "Lien vers le site web du projet",
+            "websiteLinkTitle": "Cliquez pour accéder au site web du projet",
             "websiteLink": "https://evafmh.github.io/P5_nina_carducci/",
             "keywords": [
                 "Optimisation des performances",
@@ -216,6 +220,8 @@
             "shortDescription": "Sélection de peintures et de dessins capturant ma perception du monde",
             "detailedDescription": "Pendant le premier confinement dû au COVID-19 en 2020, j'ai redécouvert les joies de la peinture et du dessin, et je n'ai pas arrêté depuis. Ma créativité me permet d'explorer la beauté du monde et de donner vie à ma vision personnelle.\n\n Vous pouvez trouver une sélection de mes créations. Il y a un dessin aux pastels à l'huile, une peinture sur céramique et plusieurs tableaux capturant la beauté de la nature. J'ai également inclus des croquis au crayon de bâtiments emblématiques parisiens tels que l'église Saint-Sulpice et la salle de concert Cortot. Et pour un peu de fun, ne râtez pas mon dessin mignon des citrouilles commères.",
             "technologiesUsed": ["Adobe Photoshop", "Procreate"],
+            "websiteLinkTitle": "Cliquez pour voir davantage",
+            "websiteLink": "https://evafamechon.myportfolio.com/painting-drawing",
             "keywords": [
                 "Peinture",
                 "Dessin",
@@ -236,10 +242,10 @@
             "subtitle": "Création d'un site portfolio dynamique avec JavaScript",
             "category": "Développement Web",
             "image": "architecte.png",
-            "shortDescription": "Création d'un site portfolio dynamique en utilisant JavaScript pour un portfolio d'une architecte",
+            "shortDescription": "Création d'un site dynamique en utilisant JavaScript et mainpulation du DOM",
             "detailedDescription": "Ce projet a été réalisé dans le cadre de ma formation chez OpenClassrooms en tant que projet pédagogique visant à développer mes compétences en développement front-end avec JavaScript.\n\nJ'ai réalisé le site portfolio d'une architecte. Le projet a impliqué la création de différentes sections du site, notamment la page de présentation, la page de connexion administrateur et une modale pour télécharger des médias. \n\nJ'ai manipulé le DOM avec JavaScript pour créer des éléments dynamiques et interactifs, récupéré les données utilisateur à partir de formulaires et géré les événements utilisateurs. J'ai suivi le design fourni dans Figma et intégré du code back-end pour stocker et gérer les données.",
             "technologiesUsed": ["JavaScript", "HTML", "CSS", "Figma"],
-            "githubLinkTitle": "Lien vers le repo Github du projet",
+            "githubLinkTitle": "Cliquez pour accéder au repo Github du projet",
             "githubLink": "https://github.com/evafmh/Portfolio-sophie-bluel-frontend",
             "keywords": [
                 "JavaScript",
@@ -261,9 +267,9 @@
             "shortDescription": "Développement de l'interface du site Booki qui permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
             "detailedDescription": "Ce projet a été réalisé dans le cadre de ma formation chez OpenClassrooms en tant que projet pédagogique visant à développer mes compétences en développement front-end avec HTML et CSS.\n\nJ'ai intégré l'interface du site web à partir des maquettes et des images reçues. J'ai veillé à ce que le site web soit responsive et respecte les points de rupture fournis pour les différents appareils.\n\nTout au long du projet, j'ai suivi les bonnes pratiques de codage, utilisé des balises HTML sémantiques et validé le code avec les validateurs HTML et CSS du W3C. Le site web est compatible avec les dernières versions de Google Chrome et Mozilla Firefox.",
             "technologiesUsed": ["HTML", "CSS", "Figma"],
-            "githubLinkTitle": "Lien vers le repo Github du projet",
+            "githubLinkTitle": "Cliquez pour accéder au repo Github du projet",
             "githubLink": "https://github.com/evafmh/P2-Booki",
-            "websiteLinkTitle": "Lien vers le site web du projet",
+            "websiteLinkTitle": "Cliquez pour accéder au site web du projet",
             "websiteLink": "https://evafmh.github.io/P2-Booki/",
             "keywords": [
                 "Intégration de Design Web",
@@ -309,7 +315,7 @@
         "linkedinLink": "https://linkedin.com/in/eva-famechon",
         "downloadSubtitle": "Téléchargez mon CV",
         "resumeText": "Mon CV",
-        "resumeLink": "CV.pdf",
+        "resumeLink": "CV-Eva-Famechon.pdf",
         "formTitle": "Envoyez moi un message",
         "formTextboxes": [
             { "label": "Nom", "type": "input" },

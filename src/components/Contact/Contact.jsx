@@ -37,7 +37,7 @@ const Contact = ({ data, id }) => {
                     <h3 className="contact-subtitle">{downloadSubtitle}</h3>
                     <Link
                         href={resumeLink}
-                        download={resumeText}
+                        download={resumeLink}
                         className="contact-resume-link"
                     >
                         {resumeText}
