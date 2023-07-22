@@ -2,12 +2,12 @@ import React from 'react'
 
 import './../../sassStyles/components/_textbox.sass'
 
-const Textbox = ({ label, type, rows }) => {
+const Textbox = ({ label, type, value, onChange, name }) => {
     const inputProps = {
-        name: label.toLowerCase(),
-        id: label.toLowerCase(),
+        name: name,
+        id: name.toLowerCase(),
         type: type,
-        rows: rows || (type === 'textarea' ? 4 : 1),
+        rows: type === 'textarea' ? 4 : 1,
         required: true,
     }
 
@@ -15,9 +15,9 @@ const Textbox = ({ label, type, rows }) => {
         <div className="text-field-container">
             <label htmlFor={inputProps.id}>{label}</label>
             {type === 'textarea' ? (
-                <textarea {...inputProps} />
+                <textarea {...inputProps} value={value} onChange={onChange} />
             ) : (
-                <input {...inputProps} />
+                <input {...inputProps} value={value} onChange={onChange} />
             )}
         </div>
     )

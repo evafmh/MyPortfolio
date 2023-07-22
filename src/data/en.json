@@ -306,11 +306,14 @@
         "resumeLink": "Resume-Eva-Famechon.pdf",
         "formTitle": "Send me a message",
         "formTextboxes": [
-            { "label": "Name", "type": "input" },
-            { "label": "Email", "type": "input" },
-            { "label": "Message", "type": "textarea" }
+            { "id": "name", "label": "Name", "type": "input" },
+            { "id": "email", "label": "Email", "type": "input" },
+            { "id": "message", "label": "Message", "type": "textarea" }
         ],
         "formSubmit": "Submit",
+        "formSubmitWaiting": "Sending in progress...",
+        "formSubmitSuccess": "Thank you for sending your message!\n\nI have received your email and will get back to you promptly.",
+        "formSubmitError": "Sorry, an error occurred while sending the email. Please try again.",
         "legalDisclaimer": "By submitting this contact form, you consent to the collection and use of your personal data for the purpose of contacting you. The information collected via this form will be used solely to respond to your request and follow-up with you."
     }
 }
