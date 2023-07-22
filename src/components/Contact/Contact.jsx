@@ -20,6 +20,7 @@ const Contact = ({ data, id }) => {
         formTextboxes,
         formSubmit,
         formSubmitWaiting,
+        formSubmitInputsError,
         formSubmitSuccess,
         formSubmitError,
         legalDisclaimer,
@@ -40,10 +41,16 @@ const Contact = ({ data, id }) => {
         {}
     )
 
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    const nameRegex = /^[a-zA-Z\s]+$/
+    const MAX_NAME_LENGTH = 80
+    const MAX_MESSAGE_LENGTH = 4000
+
     const [formData, setFormData] = useState(initialFormData)
     const [isEmailSent, setIsEmailSent] = useState(false)
     const [hasError, setHasError] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
+    const [inputErrors, setInputErrors] = useState(false)
 
     const handleInputChange = (event) => {
         const { name, value } = event.target
@@ -55,6 +62,30 @@ const Contact = ({ data, id }) => {
         setIsLoading(true) // Show the loading icon
         setHasError(false) // Clear any previous error
         setIsEmailSent(false) // Clear any previous success message
+        setInputErrors(false) // Clear any previous inputs error
+
+        // Input validation
+        const { name, email, message } = formData
+
+        if (!name.match(nameRegex) || name.length > MAX_NAME_LENGTH) {
+            // Invalid name format or exceeds max length
+            setInputErrors(true)
+            setIsLoading(false)
+            return
+        }
+        if (!email.match(emailRegex)) {
+            // Invalid email format
+            setInputErrors(true)
+            setIsLoading(false)
+            return
+        }
+        if (message.trim() === '' || message.length > MAX_MESSAGE_LENGTH) {
+            // Empty message or exceeds max length
+            setInputErrors(true)
+            setIsLoading(false)
+            return
+        }
+
         // Send form data to the backend using fetch
         fetch('http://localhost:4000/api/sendEmail', {
             method: 'POST',
@@ -130,6 +161,7 @@ const Contact = ({ data, id }) => {
                                 </div>
                             )}
                             {hasError && <p>{formSubmitError}</p>}
+                            {inputErrors && <p>{formSubmitInputsError}</p>}
                         </div>
                         <Button type="submit" className="contact-submit-button">
                             {formSubmit}
