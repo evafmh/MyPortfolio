@@ -56,7 +56,7 @@ const About = ({ data, id }) => {
                         {contact}
                     </Link>
                     <Link
-                        href={`/${cvFileName}`}
+                        href={`/assets/pdf/${cvFileName}`}
                         download={cvFileName}
                         className="about-cv-link"
                     >
