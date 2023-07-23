@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[490],{490:function(e,o,p){e.exports=p.p+"static/media/menumaker.687d5bed47b1bdaceae7.png"}}]);

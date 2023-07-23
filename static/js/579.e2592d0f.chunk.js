@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[579],{579:function(t,c,e){t.exports=e.p+"static/media/architecte.bd670b3495d81c2c99a0.png"}}]);

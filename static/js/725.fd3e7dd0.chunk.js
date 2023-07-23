@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[725],{725:function(a,e,t){a.exports=t.p+"static/media/painting-2-trees.1eb8a092adb1aa948c3a.png"}}]);

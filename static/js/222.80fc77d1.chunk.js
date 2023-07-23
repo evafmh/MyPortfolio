@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[222],{222:function(t,p,c){t.exports=c.p+"static/media/chatty-pumpkins.31d4599c629cf8ea6439.JPG"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[859],{859:function(e,o,t){e.exports=t.p+"static/media/united-kingdom.55e79986e5c61337ffe4.svg"}}]);
