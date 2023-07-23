@@ -9,12 +9,6 @@ const ScrollToTopButton = () => {
     const [isInactivityPeriod, setIsInactivityPeriod] = useState(false)
     const inactivityTimer = useRef(null)
 
-    const handleScroll = () => {
-        const scrollY = window.scrollY
-        setIsVisible(scrollY > 200) // Show the button when the user scrolls down 200 pixels
-        resetInactivityTimer()
-    }
-
     const scrollToTop = () => {
         setIsInactivityPeriod(false) // Reset the inactivity period flag
         window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -31,6 +25,12 @@ const ScrollToTopButton = () => {
     }
 
     useEffect(() => {
+        const handleScroll = () => {
+            const scrollY = window.scrollY
+            setIsVisible(scrollY > 200) // Show the button when the user scrolls down 200 pixels
+            resetInactivityTimer()
+        }
+
         window.addEventListener('scroll', handleScroll)
         window.addEventListener('click', resetInactivityTimer)
         window.addEventListener('mousemove', resetInactivityTimer)
@@ -41,7 +41,7 @@ const ScrollToTopButton = () => {
             window.removeEventListener('mousemove', resetInactivityTimer)
             clearTimeout(inactivityTimer.current)
         }
-    }, [handleScroll])
+    }, [])
 
     return (
         <div
