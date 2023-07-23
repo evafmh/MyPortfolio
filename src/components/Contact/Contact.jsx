@@ -131,7 +131,7 @@ const Contact = ({ data, id }) => {
                     >
                         <h3 className="contact-subtitle">{downloadSubtitle}</h3>
                         <Link
-                            href={`/assets/pdf/${resumeLink}`}
+                            href={`./../../assets/pdf/${resumeLink}`}
                             download={resumeLink}
                             className="contact-resume-link"
                         >
