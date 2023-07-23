@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[370],{6370:function(e,f,o){e.exports=o.p+"static/media/INFOGRAPHIES_SONR.4fd7794ef9871117a4f7.png"}}]);

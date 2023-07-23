@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[820],{7820:function(o,p,t){o.exports=t.p+"static/media/booki.b60c91d418304da66113.png"}}]);

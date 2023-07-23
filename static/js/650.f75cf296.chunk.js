@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[650],{650:function(c,o,p){c.exports=p.p+"static/media/nina.6cf0af347b41cca0c287.jpg"}}]);

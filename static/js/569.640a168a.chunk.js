@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[569],{569:function(e,o,t){e.exports=t.p+"static/media/navigation-background.2670e6538d8330fece17.png"}}]);

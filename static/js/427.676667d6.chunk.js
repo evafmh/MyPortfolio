@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[427],{427:function(e,o,t){e.exports=t.p+"static/media/volunteering-3.9e6429e83d66a73d51a7.JPG"}}]);
