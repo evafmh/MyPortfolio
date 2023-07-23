@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import ImageGallery from '../ImageGallery/ImageGallery'
 
 import './../../sassStyles/components/_projectCard.sass'
 
@@ -133,7 +134,11 @@ const ProjectCard = ({
                 </div>
                 {expanded && ( // Afficher le contenu supplémentaire uniquement si la carte est étendue
                     <div className="additional-card-content">
-                        <Grid container spacing={2}>
+                        <Grid
+                            container
+                            spacing={2}
+                            className="additional-content-container"
+                        >
                             <Grid item xs={12}>
                                 <div className="project-links">
                                     {project.githubLink && (
@@ -142,6 +147,7 @@ const ProjectCard = ({
                                             aria-label="Open GitHub repository"
                                             target="_blank"
                                             rel="noopener noreferrer"
+                                            className="project-link"
                                         >
                                             <FontAwesomeIcon
                                                 className="project-icon"
@@ -158,6 +164,7 @@ const ProjectCard = ({
                                             aria-label="Open website link"
                                             target="_blank"
                                             rel="noopener noreferrer"
+                                            className="project-link"
                                         >
                                             <FontAwesomeIcon
                                                 className="project-icon"
@@ -170,6 +177,9 @@ const ProjectCard = ({
                                     )}
                                 </div>
                             </Grid>
+                            <ImageGallery
+                                additionalImages={project.additionalImages}
+                            />
                         </Grid>
                     </div>
                 )}

@@ -145,6 +145,16 @@
             "competencies": [
                 "Created infographics to highlight clinical results.",
                 "Executed graphic design work for the \"Improve Care\" campaign"
+            ],
+            "additionalImages": [
+                {
+                    "caption": "SafeR Infographic",
+                    "name": "INFOGRAPHIE_SAFER.png"
+                },
+                {
+                    "caption": "SonR Infographic",
+                    "name": "INFOGRAPHIES_SONR.png"
+                }
             ]
         },
         {
@@ -155,8 +165,6 @@
             "shortDescription": "Volunteer art workshop facilitator to promote art among individuals in need",
             "detailedDescription": "As a volunteer at Art Explora, I participated in a unique experience of co-creating artworks with other participants throughout the month of October 2022. During this period, I acted as both a facilitator and a creator, fostering connections between associations, schools, and artists from around the world.\n\n During the pre-opening weekend of Hangar Y in Meudon, France, which attracted over 10,000 visitors, I had the opportunity to share my experience with the public, explaining and discussing about the workshops. It was a fantastic opportunity to engage with the community and promote access to art and culture for all.",
             "technologiesUsed": ["PowerPoint"],
-            "websiteLinkTitle": "Click to know more",
-            "websiteLink": "https://evafamechon.myportfolio.com/volunteering",
             "keywords": [
                 "Volunteering",
                 "Art Workshops",
@@ -169,6 +177,24 @@
                 "Promoted art and culture",
                 "Created connections",
                 "Social engagement"
+            ],
+            "additionalImages": [
+                {
+                    "caption": "Dance workshop with high school students by the dancer-choreographer Cecilia Bengolea from Argentina",
+                    "name": "volunteering-1.JPG"
+                },
+                {
+                    "caption": "Painting workshop for middle school students with the painter Barthélémy Toguo from Cameroon",
+                    "name": "volunteering-2.jpg"
+                },
+                {
+                    "caption": "Dance workshop with women's associations by the dancer-choreographer Cecilia Bengolea from Argentina",
+                    "name": "volunteering-3.JPG"
+                },
+                {
+                    "caption": "Painting session with secondary school students on the themes of nature and biodiversity",
+                    "name": "volunteering-4.jpeg"
+                }
             ]
         },
         {
@@ -210,10 +236,8 @@
             "category": "Personal Work",
             "image": "painting.png",
             "shortDescription": "Selection of paintings and drawings capturing my perception of the world",
-            "detailedDescription": "During the first COVID-19 lockdown in 2020, I rediscovered the joys of painting and drawing, and I haven't stopped since. My creativity allows me to explore the beauty of the world and bring my personal vision to life.\n\nYou can find a selection of my creations, including an oil pastel drawing, a ceramic painting, and some paintings that capture the beauty of nature. I have also included pencil sketches of iconic Parisian buildings such as the Saint-Sulpice church and the Cortot concert hall. And for a bit of fun, don't miss my cute drawing of chatty pumpkins.",
+            "detailedDescription": "During the first COVID-19 lockdown in 2020, I rediscovered the joys of painting and drawing, and I haven't stopped since. My creativity allows me to explore the beauty of the world and bring my personal vision to life.\n\nYou can find a selection of my creations.",
             "technologiesUsed": ["Adobe Photoshop", "Procreate"],
-            "websiteLinkTitle": "Click to see more",
-            "websiteLink": "https://evafamechon.myportfolio.com/painting-drawing",
             "keywords": [
                 "Painting",
                 "Drawing",
@@ -226,6 +250,24 @@
                 "Created sketches of iconic Parisian buildings",
                 "Practiced painting and drawing",
                 "Used digital tools like Adobe Photoshop and Procreate to create digital artworks"
+            ],
+            "additionalImages": [
+                {
+                    "caption": "Visage or Vase, oil pastels 2023",
+                    "name": "painting-1.jpeg"
+                },
+                {
+                    "caption": "Trees, painting and digital touch-up 2022",
+                    "name": "painting-2-trees.png"
+                },
+                {
+                    "caption": "Cortot concert hall, pencil sketch 2022",
+                    "name": "pencil-sketch.png"
+                },
+                {
+                    "caption": "Pumpkins spoiler, digital drawing 2022",
+                    "name": "chatty-pumpkins.JPG"
+                }
             ]
         },
         {

@@ -151,6 +151,16 @@
             "competencies": [
                 "Création d'infographies pour mettre en évidence des résultats cliniques",
                 "Réalisation de travaux graphiques pour la campagne \"Improve Care\""
+            ],
+            "additionalImages": [
+                {
+                    "caption": "Infographie SafeR",
+                    "name": "INFOGRAPHIE_SAFER.png"
+                },
+                {
+                    "caption": "Infographie SonR",
+                    "name": "INFOGRAPHIES_SONR.png"
+                }
             ]
         },
         {
@@ -161,8 +171,6 @@
             "shortDescription": "Facilitatrice d'ateliers d'art bénévole pour promouvoir l'art auprès des personnes en difficultés",
             "detailedDescription": "En tant que bénévole chez Art Explora, j'ai participé à une expérience unique de co-création d'œuvres d'art avec d'autres participants tout au long du mois d'octobre 2022. J'ai joué un double rôle en tant que facilitateur et créateur, en établissant des liens entre les associations, les écoles et les artistes venus du monde entier. \n\n Lors du week-end de préouverture de Hangar Y à Meudon, en France, qui a attiré plus de 10 000 visiteurs, j'ai eu l'opportunité de partager mon expérience avec le public, en expliquant et en échangeant sur les ateliers. J'ai pu m'engager avec la communauté et promouvoir l'accès à l'art et à la culture pour tous.",
             "technologiesUsed": ["PowerPoint"],
-            "websiteLinkTitle": "Cliquez pour en savoir plus",
-            "websiteLink": "https://evafamechon.myportfolio.com/volunteering",
             "keywords": [
                 "Bénévolat",
                 "Ateliers d'Art",
@@ -175,6 +183,24 @@
                 "Promotion de l'art et de la culture",
                 "Création de connexions",
                 "Engagement social"
+            ],
+            "additionalImages": [
+                {
+                    "caption": "Atelier de danse avec des lycéens par la danseuse-chorégraphe Cecilia Bengolea d'Argentine",
+                    "name": "volunteering-1.JPG"
+                },
+                {
+                    "caption": "Atelier de peinture pour des collégiens avec le peintre Barthélémy Toguo du Cameroun",
+                    "name": "volunteering-2.jpg"
+                },
+                {
+                    "caption": "Atelier de danse avec des associations de femmes par la danseuse-chorégraphe Cecilia Bengolea d'Argentine",
+                    "name": "volunteering-3.JPG"
+                },
+                {
+                    "caption": "Séance de peinture avec des enfants d'une école primaire sur les thèmes de la nature et de la biodiversité",
+                    "name": "volunteering-4.jpeg"
+                }
             ]
         },
         {
@@ -216,10 +242,8 @@
             "category": "Travaux Personnels",
             "image": "painting.png",
             "shortDescription": "Sélection de peintures et de dessins capturant ma perception du monde",
-            "detailedDescription": "Pendant le premier confinement dû au COVID-19 en 2020, j'ai redécouvert les joies de la peinture et du dessin, et je n'ai pas arrêté depuis. Ma créativité me permet d'explorer la beauté du monde et de donner vie à ma vision personnelle.\n\n Vous pouvez trouver une sélection de mes créations. Il y a un dessin aux pastels à l'huile, une peinture sur céramique et plusieurs tableaux capturant la beauté de la nature. J'ai également inclus des croquis au crayon de bâtiments emblématiques parisiens tels que l'église Saint-Sulpice et la salle de concert Cortot. Et pour un peu de fun, ne râtez pas mon dessin mignon des citrouilles commères.",
+            "detailedDescription": "Pendant le premier confinement dû au COVID-19 en 2020, j'ai redécouvert les joies de la peinture et du dessin, et je n'ai pas arrêté depuis. Ma créativité me permet d'explorer la beauté du monde et de donner vie à ma vision personnelle.\n\n Vous pouvez trouver une sélection de mes créations.",
             "technologiesUsed": ["Adobe Photoshop", "Procreate"],
-            "websiteLinkTitle": "Cliquez pour voir davantage",
-            "websiteLink": "https://evafamechon.myportfolio.com/painting-drawing",
             "keywords": [
                 "Peinture",
                 "Dessin",
@@ -232,6 +256,24 @@
                 "Réalisation d'esquisses de célèbres bâtiments parisiens",
                 "Pratique de la peinture et du dessin",
                 "Utilisation d'outils numériques tels qu'Adobe Photoshop et Procreate pour créer des œuvres numériques"
+            ],
+            "additionalImages": [
+                {
+                    "caption": "Visage ou Vase, pastels à l'huile 2023",
+                    "name": "painting-1.jpeg"
+                },
+                {
+                    "caption": "Arbres, peinture et retouches numériques 2022",
+                    "name": "painting-2-trees.png"
+                },
+                {
+                    "caption": "Salle de concert Cortot, croquis au crayon 2022",
+                    "name": "pencil-sketch.png"
+                },
+                {
+                    "caption": "Citrouilles bavardes, dessin numérique 2022",
+                    "name": "chatty-pumpkins.JPG"
+                }
             ]
         },
         {
