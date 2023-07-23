@@ -30,9 +30,15 @@
         display: flex
         flex-direction: column
         gap: 5px
+        width: 100%
 
       .contact-subtitle
         font-size: 24px
+
+      .contact-resume-link
+        @media (max-width: 768px) 
+          width: initial
+          text-align: center
 
     .contact-form
       width: 100%
