@@ -7,7 +7,7 @@ import './../../sassStyles/components/_link.sass'
 const Link = ({ href, download, className, children }) => {
     return (
         <a href={href} download={download} className={`link ${className}`}>
-            {children} <FontAwesomeIcon icon={faArrowDown} />
+            {children} {download && <FontAwesomeIcon icon={faArrowDown} />}
         </a>
     )
 }

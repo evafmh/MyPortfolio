@@ -5,7 +5,7 @@ import profileImage from '../../assets/images/profile.jpg'
 import './../../sassStyles/components/_about.sass'
 
 const About = ({ data, id }) => {
-    const { name, job, bio, cv, cvFileName } = data
+    const { name, job, bio, cv, cvFileName, contact } = data
 
     const paragraphs = bio.split('\n\n')
 
@@ -51,14 +51,18 @@ const About = ({ data, id }) => {
                         {paragraph}
                     </p>
                 ))}
-
-                <Link
-                    href={`/${cvFileName}`}
-                    download={cvFileName}
-                    className="about-cv-link"
-                >
-                    {cv}
-                </Link>
+                <div className="about-links">
+                    <Link href="#contact" className="about-contact-link">
+                        {contact}
+                    </Link>
+                    <Link
+                        href={`/${cvFileName}`}
+                        download={cvFileName}
+                        className="about-cv-link"
+                    >
+                        {cv}
+                    </Link>
+                </div>
             </div>
         </div>
     )

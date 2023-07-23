@@ -118,16 +118,26 @@ const Contact = ({ data, id }) => {
             <div className="contact-main">
                 <div className="contact-info">
                     <h2 className="contact-title">{title}</h2>
-                    <h3 className="contact-subtitle">{linksSubtitle}</h3>
-                    <SocialLinks Links={socialLinksData} />
-                    <h3 className="contact-subtitle">{downloadSubtitle}</h3>
-                    <Link
-                        href={resumeLink}
-                        download={resumeLink}
-                        className="contact-resume-link"
+                    <div
+                        className="contact-info-container"
+                        id="contact-social-links-container"
                     >
-                        {resumeText}
-                    </Link>
+                        <h3 className="contact-subtitle">{linksSubtitle}</h3>
+                        <SocialLinks Links={socialLinksData} />
+                    </div>
+                    <div
+                        className="contact-info-container"
+                        id="contact-cv-link-container"
+                    >
+                        <h3 className="contact-subtitle">{downloadSubtitle}</h3>
+                        <Link
+                            href={resumeLink}
+                            download={resumeLink}
+                            className="contact-resume-link"
+                        >
+                            {resumeText}
+                        </Link>
+                    </div>
                 </div>
                 <div className="contact-form">
                     <h3 className="contact-form-title">{formTitle}</h3>

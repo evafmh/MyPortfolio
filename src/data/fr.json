@@ -25,7 +25,8 @@
         "job": "Développeuse Web",
         "bio": "Je suis Eva, développeuse web frontend passionnée par la création d'expériences web convaincantes et conviviales.\n\n Ancienne chef de produit marketing, j'ai choisi de me consacrer au développement web après une formation de 8 mois chez OpenClassrooms. \n\n Ma créativité et mon souci du détail sont nourris par ma passion pour l'art sous toutes ses formes, de la peinture à la musique.",
         "cv": "Téléchargez mon CV",
-        "cvFileName": "CV-Eva-Famechon.pdf"
+        "cvFileName": "CV-Eva-Famechon.pdf",
+        "contact": "Me contacter"
     },
 
     "skills": [

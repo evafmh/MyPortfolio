@@ -1,11 +1,14 @@
 @import '../base/variables'
-@import '../base/typography'
+
+@mixin hover-effect
+  &:hover
+    filter: drop-shadow(0px 2px 12px rgb(0 0 0 / 0.2))
 
 .about-container
     display: flex
     align-items: center
     background-color: $background-light-purple-color
-    padding-top: 0.5em
+    padding-top: 1.5em
     padding-bottom: 0.5em
 
     @media (max-width: 768px) 
@@ -16,8 +19,8 @@
 
 #sw-js-blob-svg
     transition: all 0.3s ease 0s
-    &:hover
-        filter: drop-shadow(0px 2px 12px rgb(0 0 0 / 0.2))
+    @include hover-effect
+
 
 .about-left
     flex: 1
@@ -48,8 +51,31 @@
     .about-bio
         margin-top: 20px
 
-.about-cv-link
-    display: inline-block
-    text-decoration: none
-    &:hover
-        background-color: $background-purple-color
+.about-links
+    padding-top: 15px
+    display: flex
+    justify-content: flex-start
+    gap: 2em
+    @media (max-width: 1100px) 
+        flex-direction: column
+        gap: 0.5em
+    @media (max-width: 768px) 
+        align-items: center
+        gap: 1em
+
+    .about-cv-link
+        box-shadow: 0px 3px 15px rgba(0,0,0,0.2)
+        background: linear-gradient(to right, $orange-color 0%, $light-orange-color 50%, $orange-color 100%)
+        border: $light-orange-color
+        color: white
+        position: relative
+        overflow: hidden
+
+        //button animation
+        background-size: 200% auto 
+        transition: background-position 0.5s 
+        transition: all 0.3s ease
+
+        &:hover
+            box-shadow: 0px 1px 18px $orange-color
+            background-position: right center
