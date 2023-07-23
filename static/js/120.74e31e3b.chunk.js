@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[120],{120:function(e,o,p){e.exports=p.p+"static/media/improvecare.735ebd170e8a06f625dc.png"}}]);
