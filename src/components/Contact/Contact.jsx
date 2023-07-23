@@ -5,7 +5,7 @@ import Link from '../Link/Link'
 import Textbox from '../Textbox/Textbox'
 import SocialLinks from '../SocialLinks/SocialLinks'
 
-import { publicUrl } from '../../utils/publicUrl'
+import { getPublicUrl } from '../../utils/publicUrl'
 import './../../sassStyles/components/_contact.sass'
 
 const Contact = ({ data, id }) => {
@@ -132,7 +132,7 @@ const Contact = ({ data, id }) => {
                     >
                         <h3 className="contact-subtitle">{downloadSubtitle}</h3>
                         <Link
-                            href={`${publicUrl}/${resumeLink}`}
+                            href={getPublicUrl(`/${resumeLink}`)}
                             download={resumeLink}
                             className="contact-resume-link"
                         >

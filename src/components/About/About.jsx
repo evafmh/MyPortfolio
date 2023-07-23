@@ -2,7 +2,7 @@ import React from 'react'
 import Link from '../Link/Link'
 import profileImage from '../../assets/images/profile.jpg'
 
-import { publicUrl } from '../../utils/publicUrl'
+import { getPublicUrl } from '../../utils/publicUrl'
 import './../../sassStyles/components/_about.sass'
 
 const About = ({ data, id }) => {
@@ -57,7 +57,7 @@ const About = ({ data, id }) => {
                         {contact}
                     </Link>
                     <Link
-                        href={`${publicUrl}/${cvFileName}`}
+                        href={getPublicUrl(`/${cvFileName}`)}
                         download={cvFileName}
                         className="about-cv-link"
                     >
