@@ -12,6 +12,8 @@ const SocialLinks = ({ Links }) => {
                     key={index}
                     aria-label={`Visit ${linkData.link}`}
                     className="social-link"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
                 >
                     <FontAwesomeIcon
                         icon={linkData.icon}
