@@ -11,6 +11,7 @@ import About from '../../components/About/About'
 import MySkills from '../../components/MySkills/MySkills'
 import Gallery from '../../components/Gallery/Gallery'
 import Contact from '../../components/Contact/Contact'
+import ScrollToTopButton from '../../components/ScrollToTopButton/ScrollToTopButton'
 
 import franceFlag from '../../assets/images/france.svg'
 import ukFlag from '../../assets/images/united-kingdom.svg'
@@ -68,6 +69,7 @@ const Home = () => {
                 githubLink={data.contact.githubLink}
                 linkedinLink={data.contact.linkedinLink}
             />
+            <ScrollToTopButton />
         </main>
     )
 }

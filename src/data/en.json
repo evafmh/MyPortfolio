@@ -335,6 +335,24 @@
                 "Utilizing a project management tool",
                 "Writing technical specifications based on functional requirements",
                 "Breaking down features into tasks to prepare for development"
+            ],
+            "additionalImages": [
+                {
+                    "caption": "Kanban Board",
+                    "name": "Qwenta-5.png"
+                },
+                {
+                    "caption": "Sprint 1",
+                    "name": "Qwenta-3.png"
+                },
+                {
+                    "caption": "Task Backlog",
+                    "name": "Qwenta-1.png"
+                },
+                {
+                    "caption": "Automatically Generated Roadmap from Jira Backlog",
+                    "name": "Qwenta-4.png"
+                }
             ]
         }
     ],

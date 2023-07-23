@@ -342,6 +342,24 @@
                 "Utilisation d'un outil de gestion de projet",
                 "Rédaction de spécifications techniques à partir des besoins fonctionnels",
                 "Décomposition des fonctionnalités en tâches pour préparer le développement"
+            ],
+            "additionalImages": [
+                {
+                    "caption": "Tableau Kanban",
+                    "name": "Qwenta-5.png"
+                },
+                {
+                    "caption": "Sprint 1",
+                    "name": "Qwenta-3.png"
+                },
+                {
+                    "caption": "Backlog des tâches",
+                    "name": "Qwenta-1.png"
+                },
+                {
+                    "caption": "Roadmap générée automatiquement à partir du backlog dans Jira",
+                    "name": "Qwenta-4.png"
+                }
             ]
         }
     ],
