@@ -21,7 +21,11 @@ const Contact = ({ data, id }) => {
         formTextboxes,
         formSubmit,
         formSubmitWaiting,
-        formSubmitInputsError,
+        contactInputErrorNameLength,
+        contactInputErrorNameFormat,
+        contactInputErrorInvalidEmail,
+        contactInputErrorMessageEmpty,
+        contactInputErrorMessageLength,
         formSubmitSuccess,
         formSubmitError,
         legalDisclaimer,
@@ -43,7 +47,7 @@ const Contact = ({ data, id }) => {
     )
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-    const nameRegex = /^[a-zA-Z\s]+$/
+    const nameRegex = /^[a-zA-ZÀ-ÿ\s\-.'']+$/
     const MAX_NAME_LENGTH = 80
     const MAX_MESSAGE_LENGTH = 4000
 
@@ -172,7 +176,40 @@ const Contact = ({ data, id }) => {
                                 </div>
                             )}
                             {hasError && <p>{formSubmitError}</p>}
-                            {inputErrors && <p>{formSubmitInputsError}</p>}
+                            {inputErrors && (
+                                <div className="contact-error-message">
+                                    {formData.name.length > MAX_NAME_LENGTH && (
+                                        <p>
+                                            {contactInputErrorNameLength.replace(
+                                                '{MAX_NAME_LENGTH}',
+                                                MAX_NAME_LENGTH
+                                            )}
+                                        </p>
+                                    )}
+
+                                    {!formData.name.match(nameRegex) && (
+                                        <p>{contactInputErrorNameFormat}</p>
+                                    )}
+
+                                    {!formData.email.match(emailRegex) && (
+                                        <p>{contactInputErrorInvalidEmail}</p>
+                                    )}
+
+                                    {formData.message.trim() === '' && (
+                                        <p>{contactInputErrorMessageEmpty}</p>
+                                    )}
+
+                                    {formData.message.length >
+                                        MAX_MESSAGE_LENGTH && (
+                                        <p>
+                                            {contactInputErrorMessageLength.replace(
+                                                '{MAX_MESSAGE_LENGTH}',
+                                                MAX_MESSAGE_LENGTH
+                                            )}
+                                        </p>
+                                    )}
+                                </div>
+                            )}
                         </div>
                         <Button type="submit" className="contact-submit-button">
                             {formSubmit}

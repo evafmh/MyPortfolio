@@ -380,9 +380,13 @@
         ],
         "formSubmit": "Envoyer",
         "formSubmitWaiting": "Envoi en cours...",
-        "formSubmitInputsError": "Veuillez vérifier vos informations et vous assurer que tous les champs sont correctement remplis.",
         "formSubmitSuccess": "Merci d'avoir envoyé votre message !\n\nJe prends connaissance de votre e-mail et vous recontacterai rapidement.",
         "formSubmitError": "Désolé, une erreur s'est produite lors de l'envoi de l'email. Veuillez réessayer.",
+        "contactInputErrorNameLength": "Nom invalide : Ne doit pas dépasser {MAX_NAME_LENGTH} caractères",
+        "contactInputErrorNameFormat": "Format de nom invalide : Seules les lettres, les espaces, les tirets et les points sont autorisés",
+        "contactInputErrorInvalidEmail": "Format d'email invalide",
+        "contactInputErrorMessageEmpty": "Le message ne peut pas être vide",
+        "contactInputErrorMessageLength": "Le message ne doit pas dépasser {MAX_MESSAGE_LENGTH} caractères",
         "legalDisclaimer": "En soumettant ce formulaire de contact, vous consentez à la collecte et à l'utilisation de vos données personnelles aux fins de recontact. Les informations collectées via ce formulaire seront utilisées uniquement dans le but de répondre à votre demande et de vous recontacter."
     }
 }
