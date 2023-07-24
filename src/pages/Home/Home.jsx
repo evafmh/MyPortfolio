@@ -40,7 +40,7 @@ const Home = () => {
     return (
         <main>
             <div id="navigation-container">
-                <Link to="/">
+                <Link to="/MyPortfolio/">
                     <Logo initials="EF" firstName="Eva" lastName="Famechon" />
                 </Link>
                 <div className="navigation-container-right">
