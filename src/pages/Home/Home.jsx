@@ -16,8 +16,20 @@ import ScrollToTopButton from '../../components/ScrollToTopButton/ScrollToTopBut
 import franceFlag from '../../assets/images/france.svg'
 import ukFlag from '../../assets/images/united-kingdom.svg'
 
+const getBrowserLanguage = () => {
+    const userLanguage = navigator.language
+    // Extract the two-letter language code from the userLanguage
+    const languageCode = userLanguage.split('-')[0].toLowerCase()
+
+    // List of supported languages
+    const supportedLanguages = ['fr', 'en']
+
+    // return language code, or en by default
+    return supportedLanguages.includes(languageCode) ? languageCode : 'en'
+}
+
 const Home = () => {
-    const [language, setLanguage] = useState('fr')
+    const [language, setLanguage] = useState(getBrowserLanguage())
     const data = language === 'fr' ? frData : enData
 
     // Correspondance entre abréviation de langue et drapeau
