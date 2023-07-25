@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# MyPortfolio - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This README provides instructions on how to set up and run this project. This is my portfolio website developed in React to showcase my projects and skills. Follow the steps below to get started with the project.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before installing and running this project, make sure you have the following installed:
 
-### `npm start`
+Node.js
+npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone this repository to your machine:\
+`git clone https://github.com/evafmh/MyPortfolio.git`
 
-### `npm test`
+Navigate to the project directory:\
+`cd MyPortfolio`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install the required dependencies for the project by running the following command:\
+`npm install`
 
-### `npm run build`
+## Running the Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the MyPortfolio project, execute the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm start`
+This will run the app in the development mode.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open http://localhost:3000 to view it in your browser. If the server runs on a different port for any reason, the corresponding port number will be displayed in the console.
 
-### `npm run eject`
+## Additional Information
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Activating the Contact Form
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The MyPortfolio project includes a contact form that can be activated by setting up and running the back-end.
+Check the back-end repo to know more on how to configure the backend:\
+https://github.com/evafmh/MyPortfolioBackend.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### React Router
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project uses React Router for routing between different pages and components. If you haven't installed it, you can do so by running the following command:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`npm install react-router-dom`
