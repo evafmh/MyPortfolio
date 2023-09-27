@@ -92,7 +92,7 @@ const Contact = ({ data, id }) => {
         }
 
         // Send form data to the backend using fetch
-        fetch('http://localhost:4000/api/sendEmail', {
+        fetch('https://evafmh-backend.cyclic.cloud/api/sendEmail', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
