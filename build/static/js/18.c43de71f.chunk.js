@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[18],{6018:function(e,p,t){e.exports=t.p+"static/media/painting.87e0763e65dac9d12dbc.png"}}]);

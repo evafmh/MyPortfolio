@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[245],{245:function(e,o,i){e.exports=i.p+"static/media/grimoire.3acd3e4f2d096ab9bbee.jpg"}}]);

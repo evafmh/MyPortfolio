@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[306],{1306:function(t,e,o){t.exports=o.p+"static/media/Qwenta-4.347473fa0dc0c9771427.png"}}]);
